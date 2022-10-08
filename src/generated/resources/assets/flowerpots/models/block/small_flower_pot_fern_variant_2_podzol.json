@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cross_tint",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/podzol_top",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "minecraft:block/flower_pot",
+    "plant": "flowerpots:block/fern_variant_2"
+  }
+}

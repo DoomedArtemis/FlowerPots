@@ -1,0 +1,160 @@
+{
+  "variants": {
+    "flower_pot_dirt_variant=clay,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=clay,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=clay,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=clay,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=coarse_dirt,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=coarse_dirt,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=coarse_dirt,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=coarse_dirt,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=crimson_nylium,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=crimson_nylium,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=crimson_nylium,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=crimson_nylium,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=dirt,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=dirt,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=dirt,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=dirt,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=grass_block,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=grass_block,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=grass_block,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=grass_block,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=moss,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=moss,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=moss,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=moss,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mud,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mud,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mud,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mud,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mycelium,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mycelium,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mycelium,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=mycelium,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=podzol,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=podzol,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=podzol,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=podzol,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=red_sand,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=red_sand,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=red_sand,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=red_sand,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=rooted_dirt,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=rooted_dirt,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=rooted_dirt,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=rooted_dirt,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=sand,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=sand,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=sand,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=sand,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=warped_nylium,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=warped_nylium,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=warped_nylium,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_flower_pot"
+    },
+    "flower_pot_dirt_variant=warped_nylium,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_flower_pot"
+    }
+  }
+}
