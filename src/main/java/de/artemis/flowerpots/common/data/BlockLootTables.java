@@ -60,11 +60,11 @@ public class BlockLootTables extends BlockLoot {
     }
 
     public void dropSmallFlowerPot(Block block, ItemLike itemLike) {
-        this.add(block, createFlowerPotItemTable(itemLike));
+        this.add(block, createSmallFlowerPotItemTable(itemLike));
     }
 
-    protected static LootTable.Builder createFlowerPotItemTable(ItemLike itemLike) {
-        return LootTable.lootTable().withPool(applyExplosionCondition(Blocks.FLOWER_POT, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(Blocks.FLOWER_POT)))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
+    protected static LootTable.Builder createSmallFlowerPotItemTable(ItemLike itemLike) {
+        return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
 }

@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 import java.util.function.Supplier;
 
 public enum FlowerPotPlant implements StringRepresentable {
+    DEFAULT(Blocks.AIR::asItem),
     ALLIUM(Blocks.ALLIUM::asItem),
     OAK_SAPLING(Blocks.OAK_SAPLING::asItem),
     SPRUCE_SAPLING(Blocks.SPRUCE_SAPLING::asItem),
@@ -50,6 +51,7 @@ public enum FlowerPotPlant implements StringRepresentable {
         return item;
     }
 
+    @NotNull
     @Override
     public String getSerializedName() {
         return null;

@@ -2,6 +2,7 @@ package de.artemis.flowerpots.common.blocks;
 
 import de.artemis.flowerpots.common.registration.ModBlocks;
 import de.artemis.flowerpots.common.registration.ModItems;
+import de.artemis.flowerpots.common.tags.ModTags;
 import de.artemis.flowerpots.common.util.FlowerPotDirtVariant;
 import de.artemis.flowerpots.common.util.FlowerPotPlant;
 import de.artemis.flowerpots.common.util.FlowerPotPlantVariant;
@@ -11,9 +12,10 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -25,16 +27,34 @@ import net.minecraftforge.common.Tags;
 import org.jetbrains.annotations.NotNull;
 
 import static de.artemis.flowerpots.common.util.ModBlockStateProperties.*;
-import static net.minecraft.world.InteractionResult.FAIL;
-import static net.minecraft.world.InteractionResult.SUCCESS;
+import static net.minecraft.world.InteractionResult.*;
 
 public class SmallFlowerPotBlock extends FlowerPotBlock {
     public SmallFlowerPotBlock(Block block, Properties properties) {
         super(block, properties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantVariant.DEFAULT).setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.DIRT));
+        this.registerDefaultState(this.stateDefinition.any().setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantVariant.DEFAULT).setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.DIRT).setValue(FLOWER_POT_PLANT, FlowerPotPlant.DEFAULT));
     }
 
     public @NotNull InteractionResult use(@NotNull BlockState blockState, @NotNull Level level, @NotNull BlockPos blockPos, Player player, @NotNull InteractionHand interactionHand, @NotNull BlockHitResult blockHitResult) {
+        if (level.isClientSide) {
+            ItemStack itemInHand = player.getItemInHand(interactionHand);
+            if (!blockState.getBlock().equals(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get())) {
+                if (itemInHand.is(ModItems.GARDENING_SHOVEL.get())) {
+                    level.playSound(player, blockPos, SoundEvents.ROOTED_DIRT_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
+                } else if (itemInHand.is(Tags.Items.SHEARS)) {
+                    level.playSound(player, blockPos, SoundEvents.MOSS_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
+                } else if (itemInHand.is(ModTags.Item.MAY_APPLIE_ON_FLOWER_POT) && blockState.getValue(FLOWER_POT_PLANT).equals(FlowerPotPlant.DEFAULT)) {
+                    level.playSound(player, blockPos, SoundEvents.CAVE_VINES_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
+                } else if (!blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get()) && itemInHand.isEmpty()) {
+                    level.playSound(player, blockPos, SoundEvents.AZALEA_BREAK, SoundSource.BLOCKS, 1.0F, 1.0F);
+                }
+                return CONSUME;
+            }
+        }
+
+        if (interactionHand == InteractionHand.OFF_HAND) {
+            return PASS;
+        }
         ItemStack itemInHand = player.getItemInHand(interactionHand);
         boolean success = false;
 
@@ -99,7 +119,7 @@ public class SmallFlowerPotBlock extends FlowerPotBlock {
             level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_LILY_OF_THE_VALLEY.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlant.LILY_OF_THE_VALLEY), 3);
             success = true;
         } else if (itemInHand.getItem().equals(Blocks.WITHER_ROSE.asItem()) && blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get())) {
-            level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_WITHER_ROSE.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlant.WITHER_ROSE), 3);
+            level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_WITHER_ROSE.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlant.WITHER_ROSE).setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.SOUL_SAND), 3);
             success = true;
         } else if (itemInHand.getItem().equals(Blocks.RED_MUSHROOM.asItem()) && blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_RED_MUSHROOM.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlant.RED_MUSHROOM).setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.MYCELIUM), 3);
@@ -188,13 +208,17 @@ public class SmallFlowerPotBlock extends FlowerPotBlock {
                 level.setBlockAndUpdate(blockPos, blockState);
                 success = true;
             } else if (blockState.getValue(FLOWER_POT_DIRT_VARIANT).equals(FlowerPotDirtVariant.CLAY)) {
+                blockState = blockState.setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.SOUL_SAND);
+                level.setBlockAndUpdate(blockPos, blockState);
+                success = true;
+            } else if (blockState.getValue(FLOWER_POT_DIRT_VARIANT).equals(FlowerPotDirtVariant.SOUL_SAND)) {
                 blockState = blockState.setValue(FLOWER_POT_DIRT_VARIANT, FlowerPotDirtVariant.GRASS_BLOCK);
                 level.setBlockAndUpdate(blockPos, blockState);
                 success = true;
             }
         }
 
-        if (itemInHand.getItem().equals(Items.SHEARS)) {
+        if (itemInHand.is(Tags.Items.SHEARS)) {
             if (blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get()) || blockState.getBlock().equals(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get())) {
                 success = false;
             } else if (blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantVariant.DEFAULT)) {
@@ -216,13 +240,22 @@ public class SmallFlowerPotBlock extends FlowerPotBlock {
             }
         }
 
-        if (success) {
-            if (itemInHand.is(ModItems.GARDENING_SHOVEL.get())) {
-                level.playSound(player, blockPos, SoundEvents.ROOTED_DIRT_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
-            } else if (itemInHand.is(Tags.Items.SHEARS)) {
-                level.playSound(player, blockPos, SoundEvents.MOSS_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
-            }
+        if (itemInHand.isEmpty() && !blockState.getBlock().equals(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get()) && !blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get())) {
+            Item plant = blockState.getValue(FLOWER_POT_PLANT).getItem().get();
+            success = true;
 
+            level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT.get().defaultBlockState(), 3);
+
+            if (player.canTakeItem(new ItemStack(plant))) {
+                player.addItem(new ItemStack(plant));
+            } else {
+                ItemEntity itementity = new ItemEntity(level, blockPos.getX() + 0.5F, blockPos.getY(), blockPos.getZ() + 0.5F, new ItemStack(plant));
+                itementity.setDefaultPickUpDelay();
+                level.addFreshEntity(itementity);
+            }
+        }
+
+        if (success) {
             if (!player.isCreative()) {
                 if (itemInHand.is(ModItems.GARDENING_SHOVEL.get()) || itemInHand.is(Tags.Items.SHEARS)) {
                     itemInHand.hurt(1, RandomSource.create(), null);

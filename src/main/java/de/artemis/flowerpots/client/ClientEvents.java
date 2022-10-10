@@ -10,6 +10,8 @@ import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+import static de.artemis.flowerpots.common.tags.ModTags.Item.MAY_APPLIE_ON_FLOWER_POT;
+
 @Mod.EventBusSubscriber(modid = FlowerPots.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ClientEvents {
 
@@ -34,7 +36,6 @@ public class ClientEvents {
                 ModBlocks.SMALL_FLOWER_POT_CRIMSON_FUNGUS.get(), ModBlocks.SMALL_FLOWER_POT_WARPED_FUNGUS.get(),
                 ModBlocks.SMALL_FLOWER_POT_CRIMSON_ROOTS.get(), ModBlocks.SMALL_FLOWER_POT_WARPED_ROOTS.get(),
                 ModBlocks.SMALL_FLOWER_POT_AZALEA.get(), ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get());
-
     }
 
 }

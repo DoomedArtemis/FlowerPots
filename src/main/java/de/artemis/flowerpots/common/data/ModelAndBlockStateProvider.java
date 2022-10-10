@@ -281,6 +281,22 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                         block_model_variant_2).renderType("cutout")
                 .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("plant", texture_plant_variant_2).texture("plant_side", texture_plant_side_variant_2).texture("plant_top", texture_plant_top_variant_2).texture("particle", texture_pot);
 
+        ModelFile small_flower_pot_default_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_soul_sand",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_default).texture("plant_side", texture_plant_side_default).texture("plant_top", texture_plant_top_default).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_0_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_0_soul_sand",
+                        block_model_variant_0).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_0).texture("plant_side", texture_plant_side_variant_0).texture("plant_top", texture_plant_top_variant_0).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_1_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_1_soul_sand",
+                        block_model_variant_1).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_1).texture("plant_side", texture_plant_side_variant_1).texture("plant_top", texture_plant_top_variant_1).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_2_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_2_soul_sand",
+                        block_model_variant_2).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_2).texture("plant_side", texture_plant_side_variant_2).texture("plant_top", texture_plant_top_variant_2).texture("particle", texture_pot);
+
         smallFlowerPotConfigurable(block, small_flower_pot_default_dirt, small_flower_pot_variant_0_dirt, small_flower_pot_variant_1_dirt, small_flower_pot_variant_2_dirt,
                 small_flower_pot_default_coarse_dirt, small_flower_pot_variant_0_coarse_dirt, small_flower_pot_variant_1_coarse_dirt, small_flower_pot_variant_2_coarse_dirt,
                 small_flower_pot_default_grass_block, small_flower_pot_variant_0_grass_block, small_flower_pot_variant_1_grass_block, small_flower_pot_variant_2_grass_block,
@@ -293,7 +309,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                 small_flower_pot_default_red_sand, small_flower_pot_variant_0_red_sand, small_flower_pot_variant_1_red_sand, small_flower_pot_variant_2_red_sand,
                 small_flower_pot_default_mycelium, small_flower_pot_variant_0_mycelium, small_flower_pot_variant_1_mycelium, small_flower_pot_variant_2_mycelium,
                 small_flower_pot_default_moss, small_flower_pot_variant_0_moss, small_flower_pot_variant_1_moss, small_flower_pot_variant_2_moss,
-                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay);
+                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay,
+                small_flower_pot_default_soul_sand, small_flower_pot_variant_0_soul_sand, small_flower_pot_variant_1_soul_sand, small_flower_pot_variant_2_soul_sand);
     }
 
     public void smallFlowerPotConfigurable(Block block, ModelFile small_flower_pot_default_dirt, ModelFile small_flower_pot_variant_0_dirt, ModelFile small_flower_pot_variant_1_dirt, ModelFile small_flower_pot_variant_2_dirt,
@@ -308,7 +325,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                                            ModelFile small_flower_pot_default_red_sand, ModelFile small_flower_pot_variant_0_red_sand, ModelFile small_flower_pot_variant_1_red_sand, ModelFile small_flower_pot_variant_2_red_sand,
                                            ModelFile small_flower_pot_default_mycelium, ModelFile small_flower_pot_variant_0_mycelium, ModelFile small_flower_pot_variant_1_mycelium, ModelFile small_flower_pot_variant_2_mycelium,
                                            ModelFile small_flower_pot_default_moss, ModelFile small_flower_pot_variant_0_moss, ModelFile small_flower_pot_variant_1_moss, ModelFile small_flower_pot_variant_2_moss,
-                                           ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay) {
+                                           ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay,
+                                           ModelFile small_flower_pot_default_soul_sand, ModelFile small_flower_pot_variant_0_soul_sand, ModelFile small_flower_pot_variant_1_soul_sand, ModelFile small_flower_pot_variant_2_soul_sand) {
 
         getVariantBuilder(block).forAllStates(state -> {
             ModelFile finalModel = switch (state.getValue(ModBlockStateProperties.FLOWER_POT_DIRT_VARIANT)) {
@@ -390,6 +408,13 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                     case VARIANT_2 -> small_flower_pot_variant_2_clay;
                     default -> small_flower_pot_default_clay;
                 };
+                case SOUL_SAND -> switch (state.getValue(ModBlockStateProperties.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> small_flower_pot_variant_0_soul_sand;
+                    case VARIANT_1 -> small_flower_pot_variant_1_soul_sand;
+                    case VARIANT_2 -> small_flower_pot_variant_2_soul_sand;
+                    default -> small_flower_pot_default_soul_sand;
+                };
+
             };
             return ConfiguredModel.builder()
                     .modelFile(finalModel)
@@ -607,6 +632,22 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                         block_model_variant_2).renderType("cutout")
                 .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("plant", texture_plant_variant_2).texture("particle", texture_pot);
 
+        ModelFile small_flower_pot_default_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_soul_sand",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_default).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_0_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_0_soul_sand",
+                        block_model_variant_0).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_0).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_1_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_1_soul_sand",
+                        block_model_variant_1).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_1).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_2_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_2_soul_sand",
+                        block_model_variant_2).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_2).texture("particle", texture_pot);
+
         smallFlowerPotConfigurableModel(block, small_flower_pot_default_dirt, small_flower_pot_variant_0_dirt, small_flower_pot_variant_1_dirt, small_flower_pot_variant_2_dirt,
                 small_flower_pot_default_coarse_dirt, small_flower_pot_variant_0_coarse_dirt, small_flower_pot_variant_1_coarse_dirt, small_flower_pot_variant_2_coarse_dirt,
                 small_flower_pot_default_grass_block, small_flower_pot_variant_0_grass_block, small_flower_pot_variant_1_grass_block, small_flower_pot_variant_2_grass_block,
@@ -619,7 +660,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                 small_flower_pot_default_red_sand, small_flower_pot_variant_0_red_sand, small_flower_pot_variant_1_red_sand, small_flower_pot_variant_2_red_sand,
                 small_flower_pot_default_mycelium, small_flower_pot_variant_0_mycelium, small_flower_pot_variant_1_mycelium, small_flower_pot_variant_2_mycelium,
                 small_flower_pot_default_moss, small_flower_pot_variant_0_moss, small_flower_pot_variant_1_moss, small_flower_pot_variant_2_moss,
-                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay);
+                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay,
+                small_flower_pot_default_soul_sand, small_flower_pot_variant_0_soul_sand, small_flower_pot_variant_1_soul_sand, small_flower_pot_variant_2_soul_sand);
     }
 
     public void smallFlowerPotConfigurableModel(Block block, ModelFile small_flower_pot_default_dirt, ModelFile small_flower_pot_variant_0_dirt, ModelFile small_flower_pot_variant_1_dirt, ModelFile small_flower_pot_variant_2_dirt,
@@ -634,7 +676,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                                                 ModelFile small_flower_pot_default_red_sand, ModelFile small_flower_pot_variant_0_red_sand, ModelFile small_flower_pot_variant_1_red_sand, ModelFile small_flower_pot_variant_2_red_sand,
                                                 ModelFile small_flower_pot_default_mycelium, ModelFile small_flower_pot_variant_0_mycelium, ModelFile small_flower_pot_variant_1_mycelium, ModelFile small_flower_pot_variant_2_mycelium,
                                                 ModelFile small_flower_pot_default_moss, ModelFile small_flower_pot_variant_0_moss, ModelFile small_flower_pot_variant_1_moss, ModelFile small_flower_pot_variant_2_moss,
-                                                ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay) {
+                                                ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay,
+                                                ModelFile small_flower_pot_default_soul_sand, ModelFile small_flower_pot_variant_0_soul_sand, ModelFile small_flower_pot_variant_1_soul_sand, ModelFile small_flower_pot_variant_2_soul_sand) {
 
         getVariantBuilder(block).forAllStates(state -> {
             ModelFile finalModel = switch (state.getValue(ModBlockStateProperties.FLOWER_POT_DIRT_VARIANT)) {
@@ -716,6 +759,13 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                     case VARIANT_2 -> small_flower_pot_variant_2_clay;
                     default -> small_flower_pot_default_clay;
                 };
+                case SOUL_SAND -> switch (state.getValue(ModBlockStateProperties.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> small_flower_pot_variant_0_soul_sand;
+                    case VARIANT_1 -> small_flower_pot_variant_1_soul_sand;
+                    case VARIANT_2 -> small_flower_pot_variant_2_soul_sand;
+                    default -> small_flower_pot_default_soul_sand;
+                };
+
             };
             return ConfiguredModel.builder()
                     .modelFile(finalModel)
@@ -933,6 +983,22 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                         block_model).renderType("cutout")
                 .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("plant", texture_plant_variant_2).texture("particle", texture_pot);
 
+        ModelFile small_flower_pot_default_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_soul_sand",
+                        block_model).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_default).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_0_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_0_soul_sand",
+                        block_model).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_0).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_1_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_1_soul_sand",
+                        block_model).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_1).texture("particle", texture_pot);
+
+        ModelFile small_flower_pot_variant_2_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_variant_2_soul_sand",
+                        block_model).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("plant", texture_plant_variant_2).texture("particle", texture_pot);
+
         smallFlowerPot(block, small_flower_pot_default_dirt, small_flower_pot_variant_0_dirt, small_flower_pot_variant_1_dirt, small_flower_pot_variant_2_dirt,
                 small_flower_pot_default_coarse_dirt, small_flower_pot_variant_0_coarse_dirt, small_flower_pot_variant_1_coarse_dirt, small_flower_pot_variant_2_coarse_dirt,
                 small_flower_pot_default_grass_block, small_flower_pot_variant_0_grass_block, small_flower_pot_variant_1_grass_block, small_flower_pot_variant_2_grass_block,
@@ -945,7 +1011,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                 small_flower_pot_default_red_sand, small_flower_pot_variant_0_red_sand, small_flower_pot_variant_1_red_sand, small_flower_pot_variant_2_red_sand,
                 small_flower_pot_default_mycelium, small_flower_pot_variant_0_mycelium, small_flower_pot_variant_1_mycelium, small_flower_pot_variant_2_mycelium,
                 small_flower_pot_default_moss, small_flower_pot_variant_0_moss, small_flower_pot_variant_1_moss, small_flower_pot_variant_2_moss,
-                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay);
+                small_flower_pot_default_clay, small_flower_pot_variant_0_clay, small_flower_pot_variant_1_clay, small_flower_pot_variant_2_clay,
+                small_flower_pot_default_soul_sand, small_flower_pot_variant_0_soul_sand, small_flower_pot_variant_1_soul_sand, small_flower_pot_variant_2_soul_sand);
     }
 
     public void smallFlowerPot(Block block, ModelFile small_flower_pot_default_dirt, ModelFile small_flower_pot_variant_0_dirt, ModelFile small_flower_pot_variant_1_dirt, ModelFile small_flower_pot_variant_2_dirt,
@@ -960,7 +1027,8 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                                ModelFile small_flower_pot_default_red_sand, ModelFile small_flower_pot_variant_0_red_sand, ModelFile small_flower_pot_variant_1_red_sand, ModelFile small_flower_pot_variant_2_red_sand,
                                ModelFile small_flower_pot_default_mycelium, ModelFile small_flower_pot_variant_0_mycelium, ModelFile small_flower_pot_variant_1_mycelium, ModelFile small_flower_pot_variant_2_mycelium,
                                ModelFile small_flower_pot_default_moss, ModelFile small_flower_pot_variant_0_moss, ModelFile small_flower_pot_variant_1_moss, ModelFile small_flower_pot_variant_2_moss,
-                               ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay) {
+                               ModelFile small_flower_pot_default_clay, ModelFile small_flower_pot_variant_0_clay, ModelFile small_flower_pot_variant_1_clay, ModelFile small_flower_pot_variant_2_clay,
+                               ModelFile small_flower_pot_default_soul_sand, ModelFile small_flower_pot_variant_0_soul_sand, ModelFile small_flower_pot_variant_1_soul_sand, ModelFile small_flower_pot_variant_2_soul_sand) {
 
         getVariantBuilder(block).forAllStates(state -> {
             ModelFile finalModel = switch (state.getValue(ModBlockStateProperties.FLOWER_POT_DIRT_VARIANT)) {
@@ -1041,6 +1109,12 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
                     case VARIANT_1 -> small_flower_pot_variant_1_clay;
                     case VARIANT_2 -> small_flower_pot_variant_2_clay;
                     default -> small_flower_pot_default_clay;
+                };
+                case SOUL_SAND -> switch (state.getValue(ModBlockStateProperties.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> small_flower_pot_variant_0_soul_sand;
+                    case VARIANT_1 -> small_flower_pot_variant_1_soul_sand;
+                    case VARIANT_2 -> small_flower_pot_variant_2_soul_sand;
+                    default -> small_flower_pot_default_soul_sand;
                 };
             };
             return ConfiguredModel.builder()

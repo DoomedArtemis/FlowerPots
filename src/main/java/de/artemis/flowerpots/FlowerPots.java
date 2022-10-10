@@ -1,6 +1,8 @@
 package de.artemis.flowerpots;
 
 import com.mojang.logging.LogUtils;
+import de.artemis.flowerpots.common.registration.ModBlocks;
+import de.artemis.flowerpots.common.registration.ModItems;
 import de.artemis.flowerpots.common.registration.Registration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.NonNullList;
@@ -36,12 +38,27 @@ import java.util.Collections;
 public class FlowerPots {
 
     public static final String MODID = "flowerpots";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final CreativeModeTab INVENTORY_TAB = new CreativeModeTab(MODID) {
         @Override
         public @NotNull ItemStack makeIcon() {
             return new ItemStack(Blocks.FLOWER_POT);
+        }
+
+        @Override
+        public void fillItemList(@NotNull NonNullList<ItemStack> items) {
+            ArrayList<Item> blockList = new ArrayList<>();
+
+            int run = 0;
+
+            Collections.addAll(blockList,
+                    ModItems.GARDENING_SHOVEL.get(), ModBlocks.SMALL_FLOWER_POT.get().asItem(), ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());
+            for (Item x : blockList) {
+
+                items.add(run, new ItemStack(x));
+                run++;
+            }
         }
 
     };

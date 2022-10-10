@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "flowerpots:item/large_unfired_flower_pot"
-  }
-}

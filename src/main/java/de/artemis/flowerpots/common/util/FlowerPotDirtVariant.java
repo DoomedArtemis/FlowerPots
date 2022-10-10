@@ -15,7 +15,8 @@ public enum FlowerPotDirtVariant implements StringRepresentable {
     RED_SAND("red_sand"),
     MYCELIUM("mycelium"),
     MOSS("moss"),
-    CLAY("clay");
+    CLAY("clay"),
+    SOUL_SAND("soul_sand");
 
     private final String name;
 
