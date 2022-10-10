@@ -3,6 +3,7 @@ package de.artemis.flowerpots.common.util;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
@@ -43,7 +44,7 @@ public enum FlowerPotPlant implements StringRepresentable {
 
     private final Supplier<Item> item;
 
-    private FlowerPotPlant(Supplier<Item> item) {
+    FlowerPotPlant(Supplier<Item> item) {
         this.item = item;
     }
 
@@ -54,6 +55,6 @@ public enum FlowerPotPlant implements StringRepresentable {
     @NotNull
     @Override
     public String getSerializedName() {
-        return null;
+        return getItem().get().asItem().toString();
     }
 }
