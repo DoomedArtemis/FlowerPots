@@ -39,9 +39,9 @@ public class SmallFlowerPotBlock extends FlowerPotBlock {
         if (level.isClientSide) {
             ItemStack itemInHand = player.getItemInHand(interactionHand);
             if (!blockState.getBlock().equals(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get())) {
-                if (itemInHand.is(ModItems.GARDENING_SHOVEL.get())) {
+                if (!blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get()) && itemInHand.is(ModItems.GARDENING_SHOVEL.get())) {
                     level.playSound(player, blockPos, SoundEvents.ROOTED_DIRT_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
-                } else if (itemInHand.is(Tags.Items.SHEARS)) {
+                } else if (!blockState.getBlock().equals(ModBlocks.SMALL_FLOWER_POT.get()) && itemInHand.is(Tags.Items.SHEARS)) {
                     level.playSound(player, blockPos, SoundEvents.MOSS_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
                 } else if (itemInHand.is(ModTags.Item.MAY_APPLIE_ON_FLOWER_POT) && blockState.getValue(FLOWER_POT_PLANT).equals(FlowerPotPlant.DEFAULT)) {
                     level.playSound(player, blockPos, SoundEvents.CAVE_VINES_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
