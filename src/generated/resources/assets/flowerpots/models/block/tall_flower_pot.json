@@ -1,0 +1,8 @@
+{
+  "parent": "flowerpots:generation/tall_flower_pot_empty",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "flower_pot": "flowerpots:block/tall_flower_pot",
+    "particle": "flowerpots:block/tall_flower_pot"
+  }
+}

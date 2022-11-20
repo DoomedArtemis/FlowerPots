@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/tall_flower_pot_cactus_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/moss_block",
+    "flower_pot": "flowerpots:block/tall_flower_pot",
+    "particle": "flowerpots:block/tall_flower_pot",
+    "plant": "minecraft:block/cactus_side",
+    "plant_side": "minecraft:block/cactus_side",
+    "plant_top": "minecraft:block/cactus_top"
+  }
+}

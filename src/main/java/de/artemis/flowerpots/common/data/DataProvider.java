@@ -1,9 +1,7 @@
 package de.artemis.flowerpots.common.data;
 
 import de.artemis.flowerpots.FlowerPots;
-import de.artemis.flowerpots.common.registration.Registration;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;

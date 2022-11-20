@@ -1,6 +1,13 @@
 {
   "block.flowerpots.small_flower_pot": "Small Flower Pot",
   "block.flowerpots.small_unfired_flower_pot": "Small Unfired Flower Pot",
+  "block.flowerpots.tall_flower_pot": "Tall Flower Pot",
+  "block.flowerpots.tall_unfired_flower_pot": "Tall Unfired Flower Pot",
+  "item.flowerpots.gardening_shears": "Gardening Shears",
   "item.flowerpots.gardening_shovel": "Gardening Shovel",
-  "itemGroup.flowerpots": "Artemis' Flower Pots"
+  "itemGroup.flowerpots": "Artemis' Flower Pots",
+  "keybind.flowerpots.category": "Artemis' Flower Pots",
+  "keybind.flowerpots.toggle_description_keybind": "Show Description",
+  "tooltip.flowerpots.gardeningshears": "You can use these Gardening Shears to change the look of plants and flowers of any flower pot. Simply rightclick to cycle between every available variant.",
+  "tooltip.flowerpots.gardeningshovel": "You can use this Gardening Shovel to change the dirt of any flower pot. Simply rightclick to cycle between every available variant."
 }

@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/tall_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/sand",
+    "flower_pot": "flowerpots:block/tall_flower_pot",
+    "particle": "flowerpots:block/tall_flower_pot",
+    "plant": "minecraft:block/pink_tulip"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "A A",
+    "A A",
+    " A "
+  ],
+  "result": {
+    "item": "flowerpots:tall_unfired_flower_pot"
+  }
+}

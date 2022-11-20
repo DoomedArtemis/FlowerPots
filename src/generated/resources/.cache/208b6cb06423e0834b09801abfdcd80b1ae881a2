@@ -1,4 +1,7 @@
-// 1.19.2	2022-10-08T22:14:46.602113	Item Models: flowerpots
+// 1.19.2	2022-11-19T10:36:49.096713	Item Models: flowerpots
+614201305e52c57d9687b133aa7d8e4d39c3c056 assets/flowerpots/models/item/gardening_shears.json
 c6dbcd953dedc1da6e50a535fd7f9f5509d2756c assets/flowerpots/models/item/gardening_shovel.json
 b386030585d2a648c9df2362c0b1b463c688321d assets/flowerpots/models/item/small_flower_pot.json
 baf2a49d95dcfc559ce95579d8c6e4d3ae3952a8 assets/flowerpots/models/item/small_unfired_flower_pot.json
+1a3440dd0b66c9dc6839a339acb2c61773151468 assets/flowerpots/models/item/tall_flower_pot.json
+9f5fc1a0623daef7275b309d80f5b2c215c1fad9 assets/flowerpots/models/item/tall_unfired_flower_pot.json

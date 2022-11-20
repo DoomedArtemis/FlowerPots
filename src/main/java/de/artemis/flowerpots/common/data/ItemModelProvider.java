@@ -17,8 +17,11 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
     protected void registerModels() {
 
         simpleItem(ModItems.GARDENING_SHOVEL.get());
+        simpleItem(ModItems.GARDENING_SHEARS.get());
         simpleItem(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.SMALL_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.TALL_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.TALL_UNFIRED_FLOWER_POT.get().asItem());
     }
 
     private void simpleItem(Item item) {
