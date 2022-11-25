@@ -24,6 +24,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -42,8 +43,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         this.registerDefaultState(this.stateDefinition.any().setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.DEFAULT).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.DIRT).setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.DEFAULT));
     }
 
+    @NotNull
     @Override
-    public @NotNull VoxelShape getShape(BlockState blockState, @NotNull BlockGetter blockGetter, @NotNull BlockPos blockPos, @NotNull CollisionContext collisionContext) {
+    public VoxelShape getShape(BlockState blockState, @NotNull BlockGetter blockGetter, @NotNull BlockPos blockPos, @NotNull CollisionContext collisionContext) {
         VoxelShape voxelShape = SHAPE_SMALL;
 
         if (ForgeRegistries.BLOCKS.getKey(blockState.getBlock()).toString().contains("tall")) {
@@ -52,14 +54,19 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         return voxelShape;
     }
 
-    public @NotNull InteractionResult use(@NotNull BlockState blockState, @NotNull Level level, @NotNull BlockPos blockPos, @NotNull Player player, @NotNull InteractionHand interactionHand, @NotNull BlockHitResult blockHitResult) {
+    @NotNull
+    @Override
+    public InteractionResult use(@NotNull BlockState blockState, @NotNull Level level, @NotNull BlockPos blockPos, @NotNull Player player, @NotNull InteractionHand interactionHand, @NotNull BlockHitResult blockHitResult) {
+        if (interactionHand == InteractionHand.OFF_HAND) {
+            return PASS;
+        }
+
         if (level.isClientSide) {
             ItemStack itemStackInHand = player.getItemInHand(interactionHand);
-            Block block = blockState.getBlock();
             Block content = Block.byItem(blockState.getValue(FLOWER_POT_PLANT).getItem().get());
 
-            if (!block.equals(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get()) && !block.equals(ModBlocks.TALL_UNFIRED_FLOWER_POT.get())) {
-                if (!block.equals(ModBlocks.SMALL_FLOWER_POT.get()) && !block.equals(ModBlocks.TALL_FLOWER_POT.get()) && itemStackInHand.is(ModItems.GARDENING_SHOVEL.get())) {
+            if (!blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
+                if (itemStackInHand.is(ModItems.GARDENING_SHOVEL.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT)) {
                     FlowerPotDirtTypeEnum[] flowerPotDirtTypeEnums = FlowerPotDirtTypeEnum.getValues();
                     Block[] blocks = {Blocks.DIRT, Blocks.COARSE_DIRT, Blocks.PODZOL, Blocks.ROOTED_DIRT, Blocks.MUD, Blocks.CRIMSON_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.SAND, Blocks.RED_SAND, Blocks.MYCELIUM, Blocks.MOSS_BLOCK, Blocks.CLAY, Blocks.SOUL_SAND, Blocks.GRASS_BLOCK};
 
@@ -70,27 +77,23 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
                             level.playLocalSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), blocks[i].getSoundType(blockState).getPlaceSound(), SoundSource.BLOCKS, 1.0F, 1.0F, false);
                         }
                     }
-                } else if (!block.equals(ModBlocks.SMALL_FLOWER_POT.get()) && !block.equals(ModBlocks.TALL_FLOWER_POT.get()) && itemStackInHand.is(ModItems.GARDENING_SHEARS.get())) {
+                } else if (itemStackInHand.is(ModItems.GARDENING_SHEARS.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT)) {
                     SoundEvent soundEvent = content.getSoundType(blockState).getPlaceSound();
                     level.playSound(player, blockPos, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
-                } else if (!block.equals(ModBlocks.SMALL_FLOWER_POT.get()) && !block.equals(ModBlocks.TALL_FLOWER_POT.get()) && itemStackInHand.isEmpty()) {
+                } else if (itemStackInHand.isEmpty() && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT)) {
                     if (!blockState.getValue(FLOWER_POT_PLANT).equals(FlowerPotPlantTypeEnum.DEFAULT)) {
                         SoundEvent soundEvent = content.getSoundType(blockState).getBreakSound();
                         level.playSound(player, blockPos, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
                     }
-                } else if (itemStackInHand.is(ModTags.Item.MAY_APPLIE_ON_FLOWER_POT) && blockState.getValue(FLOWER_POT_PLANT).equals(FlowerPotPlantTypeEnum.DEFAULT)) {
+                } else if (itemStackInHand.is(ModTags.Item.MAY_APPLY_ON_FLOWER_POT) && blockState.getValue(FLOWER_POT_PLANT).equals(FlowerPotPlantTypeEnum.DEFAULT)) {
                     if (itemStackInHand.getItem() instanceof BlockItem blockItem) {
                         SoundEvent soundEvent = blockItem.getBlock().getSoundType(blockState).getPlaceSound();
                         level.playSound(player, blockPos, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
                     }
                 }
 
-                return CONSUME;
+                level.gameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
             }
-        }
-
-        if (interactionHand == InteractionHand.OFF_HAND) {
-            return PASS;
         }
 
         Block block = blockState.getBlock();
