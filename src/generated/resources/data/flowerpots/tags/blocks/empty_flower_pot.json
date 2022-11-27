@@ -1,6 +1,8 @@
 {
   "values": [
     "flowerpots:small_flower_pot",
-    "flowerpots:tall_flower_pot"
+    "flowerpots:small_tall_flower_pot",
+    "flowerpots:large_flower_pot",
+    "flowerpots:large_tall_flower_pot"
   ]
 }

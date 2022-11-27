@@ -1,8 +1,0 @@
-{
-  "parent": "flowerpots:generation/tall_flower_pot_empty",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "flower_pot": "minecraft:block/clay",
-    "particle": "minecraft:block/clay"
-  }
-}

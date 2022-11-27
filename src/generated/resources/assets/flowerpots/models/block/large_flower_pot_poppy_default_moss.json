@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/large_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/moss_block",
+    "flower_pot": "flowerpots:block/large_flower_pot",
+    "particle": "flowerpots:block/large_flower_pot",
+    "plant": "minecraft:block/poppy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_tall_flower_pot_bamboo_variant_0",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/warped_nylium",
+    "flower_pot": "flowerpots:block/small_tall_flower_pot",
+    "particle": "flowerpots:block/small_tall_flower_pot",
+    "plant": "minecraft:block/bamboo_stalk",
+    "plant_side": "minecraft:block/bamboo_singleleaf",
+    "plant_top": "minecraft:block/bamboo_stalk"
+  }
+}

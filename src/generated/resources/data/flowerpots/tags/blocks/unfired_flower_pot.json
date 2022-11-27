@@ -1,6 +1,8 @@
 {
   "values": [
     "flowerpots:small_unfired_flower_pot",
-    "flowerpots:tall_unfired_flower_pot"
+    "flowerpots:small_tall_unfired_flower_pot",
+    "flowerpots:large_unfired_flower_pot",
+    "flowerpots:large_tall_unfired_flower_pot"
   ]
 }

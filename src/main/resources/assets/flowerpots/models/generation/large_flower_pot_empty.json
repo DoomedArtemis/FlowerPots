@@ -1,0 +1,56 @@
+{
+	"elements": [
+		{
+			"from": [12, 0, 3],
+			"to": [13, 6, 13],
+			"faces": {
+				"north": {"uv": [3, 13, 4, 16], "texture": "#flower_pot"},
+				"east": {"uv": [3, 13, 13, 16], "texture": "#flower_pot"},
+				"south": {"uv": [12, 13, 13, 16], "texture": "#flower_pot"},
+				"west": {"uv": [3, 13, 13, 16], "texture": "#flower_pot"},
+				"up": {"uv": [12, 8.5, 13, 13.5], "texture": "#flower_pot"},
+				"down": {"uv": [12, 8.5, 13, 13.5], "texture": "#flower_pot"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [4, 6, 13],
+			"faces": {
+				"north": {"uv": [12, 13, 13, 16], "texture": "#flower_pot"},
+				"east": {"uv": [3, 13, 13, 16], "texture": "#flower_pot"},
+				"south": {"uv": [3, 13, 4, 16], "texture": "#flower_pot"},
+				"west": {"uv": [3, 13, 13, 16], "texture": "#flower_pot"},
+				"up": {"uv": [3, 8.5, 4, 13.5], "texture": "#flower_pot"},
+				"down": {"uv": [3, 8.5, 4, 13.5], "texture": "#flower_pot"}
+			}
+		},
+		{
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"faces": {
+				"up": {"uv": [4, 4, 12, 8], "rotation": 270, "texture": "#flower_pot"},
+				"down": {"uv": [4, 4, 12, 8], "texture": "#flower_pot"}
+			}
+		},
+		{
+			"from": [4, 0, 12],
+			"to": [12, 6, 13],
+			"faces": {
+				"north": {"uv": [4, 13, 12, 16], "texture": "#flower_pot"},
+				"south": {"uv": [4, 13, 12, 16], "texture": "#flower_pot"},
+				"up": {"uv": [4, 13, 12, 13.5], "texture": "#flower_pot"},
+				"down": {"uv": [4, 8.5, 12, 9], "texture": "#flower_pot"}
+			}
+		},
+		{
+			"from": [4, 0, 3],
+			"to": [12, 6, 4],
+			"faces": {
+				"north": {"uv": [4, 13, 12, 16], "texture": "#flower_pot"},
+				"south": {"uv": [4, 13, 12, 16], "texture": "#flower_pot"},
+				"up": {"uv": [4, 8.5, 12, 9], "texture": "#flower_pot"},
+				"down": {"uv": [4, 8.5, 12, 9], "texture": "#flower_pot"}
+			}
+		}
+	]
+}

@@ -18,7 +18,7 @@ public class ClientEvents {
     public static void onBlockColorEvent(RegisterColorHandlersEvent.Item event) {
 
         event.getBlockColors().register((state, level, pos, tint) -> level != null && pos != null ? BiomeColors.getAverageFoliageColor(level, pos) : FoliageColor.getDefaultColor(),
-                ModBlocks.SMALL_FLOWER_POT_FERN.get(), ModBlocks.TALL_FLOWER_POT_FERN.get());
+                ModBlocks.SMALL_FLOWER_POT_FERN.get(), ModBlocks.SMALL_TALL_FLOWER_POT_FERN.get(), ModBlocks.LARGE_FLOWER_POT_FERN.get(), ModBlocks.LARGE_TALL_FLOWER_POT_FERN.get());
     }
 
     @SubscribeEvent

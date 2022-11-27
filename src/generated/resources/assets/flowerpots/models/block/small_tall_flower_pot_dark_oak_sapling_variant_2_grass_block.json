@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_tall_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "flowerpots:block/grass_block_top_colored",
+    "flower_pot": "flowerpots:block/small_tall_flower_pot",
+    "particle": "flowerpots:block/small_tall_flower_pot",
+    "plant": "flowerpots:block/dark_oak_sapling_variant_2"
+  }
+}

@@ -26,7 +26,11 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
 
         add(ModBlocks.SMALL_FLOWER_POT.get(), "Small Flower Pot");
         add(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get(), "Small Unfired Flower Pot");
-        add(ModBlocks.TALL_FLOWER_POT.get(), "Tall Flower Pot");
-        add(ModBlocks.TALL_UNFIRED_FLOWER_POT.get(), "Tall Unfired Flower Pot");
+        add(ModBlocks.SMALL_TALL_FLOWER_POT.get(), "Small Tall Flower Pot");
+        add(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get(), "Small Tall Unfired Flower Pot");
+        add(ModBlocks.LARGE_FLOWER_POT.get(), "Large Flower Pot");
+        add(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get(), "Large Unfired Flower Pot");
+        add(ModBlocks.LARGE_TALL_FLOWER_POT.get(), "Large Tall Flower Pot");
+        add(ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get(), "Large Tall Unfired Flower Pot");
     }
 }

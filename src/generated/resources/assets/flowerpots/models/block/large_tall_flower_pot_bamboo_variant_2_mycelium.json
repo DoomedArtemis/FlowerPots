@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/large_tall_flower_pot_bamboo_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/mycelium_top",
+    "flower_pot": "flowerpots:block/large_tall_flower_pot",
+    "particle": "flowerpots:block/large_tall_flower_pot",
+    "plant": "minecraft:block/bamboo_stalk",
+    "plant_side": "minecraft:block/bamboo_singleleaf",
+    "plant_top": "minecraft:block/bamboo_stalk"
+  }
+}
