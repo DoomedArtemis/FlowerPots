@@ -77,12 +77,12 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
 
             if (!blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
                 if (itemStackInHand.is(ModItems.GARDENING_SHOVEL.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT)) {
-                    FlowerPotDirtTypeEnum[] flowerPotDirtTypeEnums = FlowerPotDirtTypeEnum.getValues();
+                    FlowerPotDirtTypeEnum[] dirtTypeEnums = FlowerPotDirtTypeEnum.values();
                     Block[] blocks = {Blocks.DIRT, Blocks.COARSE_DIRT, Blocks.PODZOL, Blocks.ROOTED_DIRT, Blocks.MUD, Blocks.CRIMSON_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.SAND, Blocks.RED_SAND, Blocks.MYCELIUM, Blocks.MOSS_BLOCK, Blocks.CLAY, Blocks.SOUL_SAND, Blocks.GRASS_BLOCK};
 
                     FlowerPotDirtTypeEnum currentDirtType = blockState.getValue(FLOWER_POT_DIRT);
-                    for (int i = 0; i < flowerPotDirtTypeEnums.length; i++) {
-                        FlowerPotDirtTypeEnum loopCurrentDirtType = flowerPotDirtTypeEnums[i];
+                    for (int i = 0; i < dirtTypeEnums.length; i++) {
+                        FlowerPotDirtTypeEnum loopCurrentDirtType = dirtTypeEnums[i];
                         if (loopCurrentDirtType.equals(currentDirtType)) {
                             level.playLocalSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), blocks[i].getSoundType(blockState).getPlaceSound(), SoundSource.BLOCKS, 1.0F, 1.0F, false);
                         }
@@ -497,88 +497,16 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
             success = true;
         }
 
-        if (itemInHand.equals(ModItems.GARDENING_SHOVEL.get())) {
-            if (blockState.is(ModTags.Block.EMPTY_FLOWER_POT) || blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
-                success = false;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.GRASS_BLOCK)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.DIRT);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.DIRT)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.COARSE_DIRT);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.COARSE_DIRT)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.PODZOL);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.PODZOL)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.ROOTED_DIRT);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.ROOTED_DIRT)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MUD);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.MUD)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CRIMSON_NYLIUM);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.CRIMSON_NYLIUM)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.WARPED_NYLIUM);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.WARPED_NYLIUM)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.SAND);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.SAND)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.RED_SAND);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.RED_SAND)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MYCELIUM);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.MYCELIUM)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.MOSS)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.CLAY)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.SOUL_SAND);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_DIRT).equals(FlowerPotDirtTypeEnum.SOUL_SAND)) {
-                blockState = blockState.setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.GRASS_BLOCK);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            }
+        if (itemStackInHand.is(ModItems.GARDENING_SHOVEL.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT) && !blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
+            blockState = blockState.setValue(FLOWER_POT_DIRT, blockState.getValue(FLOWER_POT_DIRT).getNext());
+            level.setBlockAndUpdate(blockPos, blockState);
+            success = true;
         }
 
-        if (itemStackInHand.is(ModItems.GARDENING_SHEARS.get())) {
-            if (blockState.is(ModTags.Block.EMPTY_FLOWER_POT) || blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
-                success = false;
-            } else if (blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantTypeVariantEnum.DEFAULT)) {
-                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.VARIANT_0);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantTypeVariantEnum.VARIANT_0)) {
-                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.VARIANT_1);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantTypeVariantEnum.VARIANT_1)) {
-                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.VARIANT_2);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            } else if (blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantTypeVariantEnum.VARIANT_2)) {
-                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.DEFAULT);
-                level.setBlockAndUpdate(blockPos, blockState);
-                success = true;
-            }
+        if (itemStackInHand.is(ModItems.GARDENING_SHEARS.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT) && !blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
+            blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, blockState.getValue(FLOWER_POT_PLANT_VARIANT).getNext());
+            level.setBlockAndUpdate(blockPos, blockState);
+            success = true;
         }
 
         if (itemStackInHand.isEmpty() && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT) && !blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {

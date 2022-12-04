@@ -21,4 +21,14 @@ public enum FlowerPotPlantTypeVariantEnum implements StringRepresentable {
     public String getSerializedName() {
         return this.name;
     }
+
+    public FlowerPotPlantTypeVariantEnum getNext() {
+        FlowerPotPlantTypeVariantEnum[] values = values();
+        int i = 0;
+        for (; values[i] != this; i++) ;
+
+        i++;
+        i %= values.length;
+        return values[i];
+    }
 }

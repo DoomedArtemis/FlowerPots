@@ -32,7 +32,13 @@ public enum FlowerPotDirtTypeEnum implements StringRepresentable {
         return this.name;
     }
 
-    public static FlowerPotDirtTypeEnum[] getValues() {
-        return new FlowerPotDirtTypeEnum[]{FlowerPotDirtTypeEnum.GRASS_BLOCK, FlowerPotDirtTypeEnum.DIRT, FlowerPotDirtTypeEnum.COARSE_DIRT, FlowerPotDirtTypeEnum.PODZOL, FlowerPotDirtTypeEnum.ROOTED_DIRT, FlowerPotDirtTypeEnum.MUD, FlowerPotDirtTypeEnum.CRIMSON_NYLIUM, FlowerPotDirtTypeEnum.WARPED_NYLIUM, FlowerPotDirtTypeEnum.SAND, FlowerPotDirtTypeEnum.RED_SAND, FlowerPotDirtTypeEnum.MYCELIUM, FlowerPotDirtTypeEnum.MOSS, FlowerPotDirtTypeEnum.CLAY, FlowerPotDirtTypeEnum.SOUL_SAND};
+    public FlowerPotDirtTypeEnum getNext() {
+        FlowerPotDirtTypeEnum[] values = values();
+        int i = 0;
+        for(; values[i] != this; i++);
+
+        i++;
+        i %= values.length;
+        return values[i];
     }
 }
