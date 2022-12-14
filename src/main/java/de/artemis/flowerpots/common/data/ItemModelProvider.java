@@ -18,12 +18,18 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
 
         simpleItem(ModItems.GARDENING_SHOVEL.get());
         simpleItem(ModItems.GARDENING_SHEARS.get());
-        simpleItem(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());
+
         simpleItem(ModBlocks.SMALL_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());
+
+        simpleItem(ModBlocks.SMALL_HANGING_FLOWER_POT.get().asItem());
+
         simpleItem(ModBlocks.SMALL_TALL_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get().asItem());
-        simpleItem(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get().asItem());
+
         simpleItem(ModBlocks.LARGE_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get().asItem());
+
         simpleItem(ModBlocks.LARGE_TALL_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get().asItem());
     }

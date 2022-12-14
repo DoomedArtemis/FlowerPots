@@ -53,7 +53,7 @@ public class TagsProvider {
 
         @Override
         protected void addTags() {
-            tag(ModTags.Block.EMPTY_FLOWER_POT).add(ModBlocks.SMALL_FLOWER_POT.get(), ModBlocks.SMALL_TALL_FLOWER_POT.get(), ModBlocks.LARGE_FLOWER_POT.get(), ModBlocks.LARGE_TALL_FLOWER_POT.get());
+            tag(ModTags.Block.EMPTY_FLOWER_POT).add(ModBlocks.SMALL_FLOWER_POT.get(), ModBlocks.SMALL_TALL_FLOWER_POT.get(), ModBlocks.LARGE_FLOWER_POT.get(), ModBlocks.LARGE_TALL_FLOWER_POT.get(), ModBlocks.SMALL_HANGING_FLOWER_POT.get());
             tag(ModTags.Block.UNFIRED_FLOWER_POT).add(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get(), ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get(), ModBlocks.LARGE_UNFIRED_FLOWER_POT.get(), ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get());
         }
 

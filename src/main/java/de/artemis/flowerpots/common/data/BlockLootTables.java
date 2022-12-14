@@ -51,6 +51,40 @@ public class BlockLootTables extends BlockLoot {
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
 
+        dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT.get());
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_SPRUCE_SAPLING.get(), Blocks.SPRUCE_SAPLING);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_BIRCH_SAPLING.get(), Blocks.BIRCH_SAPLING);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_JUNGLE_SAPLING.get(), Blocks.JUNGLE_SAPLING);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_ACACIA_SAPLING.get(), Blocks.ACACIA_SAPLING);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_DARK_OAK_SAPLING.get(), Blocks.DARK_OAK_SAPLING);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_MANGROVE_SAPLING.get(), Blocks.MANGROVE_PROPAGULE);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_FERN.get(), Blocks.FERN);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_DANDELION.get(), Blocks.DANDELION);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_POPPY.get(), Blocks.POPPY);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_BLUE_ORCHID.get(), Blocks.BLUE_ORCHID);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_ALLIUM.get(), Blocks.ALLIUM);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_AZURE_BLUET.get(), Blocks.AZURE_BLUET);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_RED_TULIP.get(), Blocks.RED_TULIP);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_ORANGE_TULIP.get(), Blocks.ORANGE_TULIP);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_WHITE_TULIP.get(), Blocks.WHITE_TULIP);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_PINK_TULIP.get(), Blocks.PINK_TULIP);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_OXEYE_DAISY.get(), Blocks.OXEYE_DAISY);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_CORNFLOWER.get(), Blocks.CORNFLOWER);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_LILY_OF_THE_VALLEY.get(), Blocks.LILY_OF_THE_VALLEY);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_WITHER_ROSE.get(), Blocks.WITHER_ROSE);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_RED_MUSHROOM.get(), Blocks.RED_MUSHROOM);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_BROWN_MUSHROOM.get(), Blocks.BROWN_MUSHROOM);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_DEAD_BUSH.get(), Blocks.DEAD_BUSH);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_CACTUS.get(), Blocks.CACTUS);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_BAMBOO.get(), Blocks.BAMBOO);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_CRIMSON_FUNGUS.get(), Blocks.CRIMSON_FUNGUS);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_WARPED_FUNGUS.get(), Blocks.WARPED_FUNGUS);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_CRIMSON_ROOTS.get(), Blocks.CRIMSON_ROOTS);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
+        dropSmallHangingFlowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+
         dropSelf(ModBlocks.SMALL_TALL_FLOWER_POT.get());
         dropSelf(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get());
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -167,6 +201,10 @@ public class BlockLootTables extends BlockLoot {
         this.add(block, createSmallFlowerPotItemTable(itemLike));
     }
 
+    public void dropSmallHangingFlowerPot(Block block, ItemLike itemLike) {
+        this.add(block, createSmallHangingFlowerPotItemTable(itemLike));
+    }
+
     public void dropSmallTallFlowerPot(Block block, ItemLike itemLike) {
         this.add(block, createSmallTallFlowerPotItemTable(itemLike));
     }
@@ -181,6 +219,10 @@ public class BlockLootTables extends BlockLoot {
 
     protected static LootTable.Builder createSmallFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
+    }
+
+    protected static LootTable.Builder createSmallHangingFlowerPotItemTable(ItemLike itemLike) {
+        return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_HANGING_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_HANGING_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
     protected static LootTable.Builder createSmallTallFlowerPotItemTable(ItemLike itemLike) {

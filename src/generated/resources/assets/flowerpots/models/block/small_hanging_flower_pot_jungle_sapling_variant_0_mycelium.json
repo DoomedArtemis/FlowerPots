@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/mycelium_top",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot",
+    "particle": "flowerpots:block/small_hanging_flower_pot",
+    "plant": "flowerpots:block/jungle_sapling_variant_0"
+  }
+}
