@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_bamboo_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/coarse_dirt",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_copper_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_copper_chain",
+    "plant": "minecraft:block/bamboo_stalk",
+    "plant_side": "minecraft:block/bamboo_singleleaf",
+    "plant_top": "minecraft:block/bamboo_stalk"
+  }
+}

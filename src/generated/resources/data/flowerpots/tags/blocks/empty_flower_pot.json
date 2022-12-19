@@ -4,6 +4,8 @@
     "flowerpots:small_tall_flower_pot",
     "flowerpots:large_flower_pot",
     "flowerpots:large_tall_flower_pot",
-    "flowerpots:small_hanging_flower_pot"
+    "flowerpots:small_hanging_flower_pot_iron_chain",
+    "flowerpots:small_hanging_flower_pot_gold_chain",
+    "flowerpots:small_hanging_flower_pot_copper_chain"
   ]
 }

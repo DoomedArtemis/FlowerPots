@@ -19,7 +19,6 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class BlockLootTablesProvider extends LootTableProvider {
-
     public BlockLootTablesProvider(DataGenerator generator) {
         super(generator);
     }

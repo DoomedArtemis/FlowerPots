@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_cactus_default",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/red_sand",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_gold_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_gold_chain",
+    "plant": "minecraft:block/cactus_side",
+    "plant_side": "minecraft:block/cactus_side",
+    "plant_top": "minecraft:block/cactus_top"
+  }
+}

@@ -40,14 +40,13 @@ public class FlowerPots {
 
             int run = 0;
 
-            Collections.addAll(blockList, ModItems.GARDENING_SHOVEL.get(), ModItems.GARDENING_SHEARS.get(), ModBlocks.SMALL_FLOWER_POT.get().asItem(), ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.SMALL_TALL_FLOWER_POT.get().asItem(), ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.LARGE_FLOWER_POT.get().asItem(), ModBlocks.LARGE_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.LARGE_TALL_FLOWER_POT.get().asItem(), ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.SMALL_HANGING_FLOWER_POT.get().asItem().asItem());
+            Collections.addAll(blockList, ModItems.GARDENING_SHOVEL.get(), ModItems.GARDENING_SHEARS.get(), ModBlocks.SMALL_FLOWER_POT.get().asItem(), ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.SMALL_TALL_FLOWER_POT.get().asItem(), ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.LARGE_FLOWER_POT.get().asItem(), ModBlocks.LARGE_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.LARGE_TALL_FLOWER_POT.get().asItem(), ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get().asItem(), ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get().asItem().asItem(), ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get().asItem(), ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));
                 run++;
             }
         }
-
     };
 
     public FlowerPots() {

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "flowerpots:small_flower_pot"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "C",
+    "B",
+    "A"
+  ],
+  "result": {
+    "item": "flowerpots:small_hanging_flower_pot_iron_chain"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/rooted_dirt",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "plant": "flowerpots:block/white_tulip_variant_1"
+  }
+}

@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
 
@@ -53,7 +54,7 @@ public class TagsProvider {
 
         @Override
         protected void addTags() {
-            tag(ModTags.Block.EMPTY_FLOWER_POT).add(ModBlocks.SMALL_FLOWER_POT.get(), ModBlocks.SMALL_TALL_FLOWER_POT.get(), ModBlocks.LARGE_FLOWER_POT.get(), ModBlocks.LARGE_TALL_FLOWER_POT.get(), ModBlocks.SMALL_HANGING_FLOWER_POT.get());
+            tag(ModTags.Block.EMPTY_FLOWER_POT).add(ModBlocks.SMALL_FLOWER_POT.get(), ModBlocks.SMALL_TALL_FLOWER_POT.get(), ModBlocks.LARGE_FLOWER_POT.get(), ModBlocks.LARGE_TALL_FLOWER_POT.get(), ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get(), ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get(), ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get());
             tag(ModTags.Block.UNFIRED_FLOWER_POT).add(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get(), ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get(), ModBlocks.LARGE_UNFIRED_FLOWER_POT.get(), ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get());
         }
 

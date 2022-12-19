@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_azalea_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/warped_nylium",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_copper_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_copper_chain",
+    "plant": "flowerpots:block/potted_azalea_bush_plant_variant_2",
+    "plant_side": "flowerpots:block/potted_azalea_bush_side_variant_2",
+    "plant_top": "flowerpots:block/potted_azalea_bush_top_variant_2"
+  }
+}

@@ -22,7 +22,9 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         simpleItem(ModBlocks.SMALL_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());
 
-        simpleItem(ModBlocks.SMALL_HANGING_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get().asItem());
+        simpleItem(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get().asItem());
+        simpleItem(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get().asItem());
 
         simpleItem(ModBlocks.SMALL_TALL_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get().asItem());

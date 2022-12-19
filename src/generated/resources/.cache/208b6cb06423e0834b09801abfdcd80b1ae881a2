@@ -1,4 +1,4 @@
-// 1.19.2	2022-12-12T20:01:03.332075	Item Models: flowerpots
+// 1.19.2	2022-12-19T12:09:47.4875358	Item Models: flowerpots
 614201305e52c57d9687b133aa7d8e4d39c3c056 assets/flowerpots/models/item/gardening_shears.json
 c6dbcd953dedc1da6e50a535fd7f9f5509d2756c assets/flowerpots/models/item/gardening_shovel.json
 0f845af585ba2378dbffb05102db5f715b8c5ecf assets/flowerpots/models/item/large_flower_pot.json
@@ -6,7 +6,9 @@ b065f676cd7cd1c6ccd63362d32f47bd51dce2fd assets/flowerpots/models/item/large_tal
 15b7f45b2e1ea80f0ecbab8ce0e777657f2b40ba assets/flowerpots/models/item/large_tall_unfired_flower_pot.json
 f200323ca6d17307928c3631388397b33c553e8c assets/flowerpots/models/item/large_unfired_flower_pot.json
 b386030585d2a648c9df2362c0b1b463c688321d assets/flowerpots/models/item/small_flower_pot.json
-363cf979ef692cd8c61e78eab26e0a745c2ebe90 assets/flowerpots/models/item/small_hanging_flower_pot.json
+ff69e6e38a39c59fbe7d2c85caf9323a72cdcbc6 assets/flowerpots/models/item/small_hanging_flower_pot_copper_chain.json
+581bd853e62ce0b81a7a833b2b5ef20cf5a120bc assets/flowerpots/models/item/small_hanging_flower_pot_gold_chain.json
+1420e33c719dbcf896449911c226d05348a5cdaa assets/flowerpots/models/item/small_hanging_flower_pot_iron_chain.json
 3e14edb99db57454f9d791317e43ca512fb2f8c3 assets/flowerpots/models/item/small_tall_flower_pot.json
 be0adc0e456a053062e099b468e3630394bbaa09 assets/flowerpots/models/item/small_tall_unfired_flower_pot.json
 baf2a49d95dcfc559ce95579d8c6e4d3ae3952a8 assets/flowerpots/models/item/small_unfired_flower_pot.json

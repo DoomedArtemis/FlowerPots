@@ -13,7 +13,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.function.Consumer;
 
 public class RecipesProvider extends RecipeProvider implements IConditionBuilder {
-
     public RecipesProvider(DataGenerator dataGenerator) {
         super(dataGenerator);
     }
@@ -24,7 +23,9 @@ public class RecipesProvider extends RecipeProvider implements IConditionBuilder
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get()), ModBlocks.SMALL_FLOWER_POT.get().asItem(), 0.35F, 200).unlockedBy("has_small_unfired_flower_pot", has(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get())).save(consumer);
         ShapedRecipeBuilder.shaped(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get()).define('A', Items.CLAY_BALL).pattern("A A").pattern(" A ").unlockedBy("has_clay_ball", has(Items.CLAY_BALL)).save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(ModBlocks.SMALL_HANGING_FLOWER_POT.get(), 1).requires(ModBlocks.SMALL_FLOWER_POT.get()).requires(Items.CHAIN).unlockedBy("has_chain", has(Items.CHAIN)).unlockedBy("has_small_flower_pot", has(ModBlocks.SMALL_FLOWER_POT.get())).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get()).define('A', ModBlocks.SMALL_FLOWER_POT.get()).define('B', Items.CHAIN).define('C', Items.IRON_INGOT).pattern("C").pattern("B").pattern("A").unlockedBy("has_small_flower_pot", has(ModBlocks.SMALL_FLOWER_POT.get())).unlockedBy("has_chain", has(Items.CHAIN)).unlockedBy("has_iron_ingot", has(Items.IRON_INGOT)).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get()).define('A', ModBlocks.SMALL_FLOWER_POT.get()).define('B', Items.CHAIN).define('C', Items.GOLD_INGOT).pattern("C").pattern("B").pattern("A").unlockedBy("has_small_flower_pot", has(ModBlocks.SMALL_FLOWER_POT.get())).unlockedBy("has_chain", has(Items.CHAIN)).unlockedBy("has_gold_ingot", has(Items.GOLD_INGOT)).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get()).define('A', ModBlocks.SMALL_FLOWER_POT.get()).define('B', Items.CHAIN).define('C', Items.COPPER_INGOT).pattern("C").pattern("B").pattern("A").unlockedBy("has_small_flower_pot", has(ModBlocks.SMALL_FLOWER_POT.get())).unlockedBy("has_chain", has(Items.CHAIN)).unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(consumer);
 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get()), ModBlocks.SMALL_TALL_FLOWER_POT.get().asItem(), 0.35F, 200).unlockedBy("has_small_tall_unfired_flower_pot", has(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get())).save(consumer);
         ShapedRecipeBuilder.shaped(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get()).define('A', Items.CLAY_BALL).pattern("A A").pattern("A A").pattern(" A ").unlockedBy("has_clay_ball", has(Items.CLAY_BALL)).save(consumer);
