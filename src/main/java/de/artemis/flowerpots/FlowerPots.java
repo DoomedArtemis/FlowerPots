@@ -8,7 +8,6 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,7 +30,7 @@ public class FlowerPots {
     public static final CreativeModeTab INVENTORY_TAB = new CreativeModeTab(MODID) {
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(Blocks.FLOWER_POT);
+            return new ItemStack(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get());
         }
 
         @Override

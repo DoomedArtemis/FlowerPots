@@ -4,7 +4,7 @@ license="All Rights Reserved"
 [[mods]]
 modId="flowerpots"
 version="${file.jarVersion}"
-displayName="Flowerpots"
+displayName="Artemis' Flower Pots"
 authors="Artemis"
 description='''
 This mod adds lots of new and improved flower pots
