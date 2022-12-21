@@ -136,6 +136,9 @@ public class ModBlocks {
     public static final RegistryObject<FlowerPotBlock> SMALL_FLOWER_POT_FLOWERING_AZALEA = register("small_flower_pot_flowering_azalea",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_FLOWER_POT_BIG_DRIPLEAF = register("small_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
     public static final RegistryObject<FlowerPotBlock> SMALL_TALL_FLOWER_POT = registerWithTab("small_tall_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -236,6 +239,9 @@ public class ModBlocks {
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<FlowerPotBlock> SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA = register("small_tall_flower_pot_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_TALL_FLOWER_POT_BIG_DRIPLEAF = register("small_tall_flower_pot_big_dripleaf",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<FlowerPotBlock> LARGE_FLOWER_POT = registerWithTab("large_flower_pot",
@@ -340,6 +346,9 @@ public class ModBlocks {
     public static final RegistryObject<FlowerPotBlock> LARGE_FLOWER_POT_FLOWERING_AZALEA = register("large_flower_pot_flowering_azalea",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> LARGE_FLOWER_POT_BIG_DRIPLEAF = register("large_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
     public static final RegistryObject<FlowerPotBlock> LARGE_TALL_FLOWER_POT = registerWithTab("large_tall_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -442,6 +451,9 @@ public class ModBlocks {
     public static final RegistryObject<FlowerPotBlock> LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA = register("large_tall_flower_pot_flowering_azalea",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> LARGE_TALL_FLOWER_POT_BIG_DRIPLEAF = register("large_tall_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_IRON_CHAIN = registerWithTab("small_hanging_flower_pot_iron_chain",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -539,6 +551,9 @@ public class ModBlocks {
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA = register("small_hanging_flower_pot_iron_chain_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIG_DRIPLEAF = register("small_hanging_flower_pot_iron_chain_big_dripleaf",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_GOLD_CHAIN = registerWithTab("small_hanging_flower_pot_gold_chain",
@@ -640,6 +655,9 @@ public class ModBlocks {
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA = register("small_hanging_flower_pot_gold_chain_flowering_azalea",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIG_DRIPLEAF = register("small_hanging_flower_pot_gold_chain_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_COPPER_CHAIN = registerWithTab("small_hanging_flower_pot_copper_chain",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -737,6 +755,9 @@ public class ModBlocks {
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA = register("small_hanging_flower_pot_copper_chain_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIG_DRIPLEAF = register("small_hanging_flower_pot_copper_chain_big_dripleaf",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
 

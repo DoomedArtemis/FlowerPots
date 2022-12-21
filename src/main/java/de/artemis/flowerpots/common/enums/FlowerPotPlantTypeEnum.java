@@ -40,7 +40,8 @@ public enum FlowerPotPlantTypeEnum implements StringRepresentable {
     CRIMSON_ROOTS(Blocks.CRIMSON_ROOTS::asItem),
     WARPED_ROOTS(Blocks.WARPED_ROOTS::asItem),
     AZALEA(Blocks.AZALEA::asItem),
-    FLOWRING_AZALEA(Blocks.FLOWERING_AZALEA::asItem);
+    FLOWRING_AZALEA(Blocks.FLOWERING_AZALEA::asItem),
+    BIG_DRIPLEAF(Blocks.BIG_DRIPLEAF::asItem);
 
     private final Supplier<Item> item;
 

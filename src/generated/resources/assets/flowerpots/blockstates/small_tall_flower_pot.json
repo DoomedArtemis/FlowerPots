@@ -72,6 +72,18 @@
     "flower_pot_dirt=clay,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=clay,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -466,6 +478,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=coarse_dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=coarse_dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -864,6 +888,18 @@
     "flower_pot_dirt=crimson_nylium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=crimson_nylium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -1258,6 +1294,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -1656,6 +1704,18 @@
     "flower_pot_dirt=grass_block,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=grass_block,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -2050,6 +2110,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=moss,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=moss,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -2448,6 +2520,18 @@
     "flower_pot_dirt=mud,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=mud,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -2842,6 +2926,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=mycelium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=mycelium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -3240,6 +3336,18 @@
     "flower_pot_dirt=podzol,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=podzol,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -3634,6 +3742,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=red_sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=red_sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -4032,6 +4152,18 @@
     "flower_pot_dirt=rooted_dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=rooted_dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -4426,6 +4558,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -4824,6 +4968,18 @@
     "flower_pot_dirt=soul_sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
     "flower_pot_dirt=soul_sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
@@ -5218,6 +5374,18 @@
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=warped_nylium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_tall_flower_pot"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_tall_flower_pot"
     },
     "flower_pot_dirt=warped_nylium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {

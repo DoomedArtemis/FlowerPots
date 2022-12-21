@@ -9,7 +9,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
 
@@ -27,7 +26,7 @@ public class TagsProvider {
 
         @Override
         protected void addTags() {
-            tag(ModTags.Item.MAY_APPLY_ON_FLOWER_POT).add(Blocks.OAK_SAPLING.asItem().asItem(), Blocks.SPRUCE_SAPLING.asItem(), Blocks.BIRCH_SAPLING.asItem(), Blocks.JUNGLE_SAPLING.asItem(), Blocks.ACACIA_SAPLING.asItem(), Blocks.DARK_OAK_SAPLING.asItem(), Blocks.MANGROVE_PROPAGULE.asItem(), Blocks.FERN.asItem(), Blocks.DANDELION.asItem(), Blocks.POPPY.asItem(), Blocks.BLUE_ORCHID.asItem(), Blocks.ALLIUM.asItem(), Blocks.AZURE_BLUET.asItem(), Blocks.RED_TULIP.asItem(), Blocks.ORANGE_TULIP.asItem(), Blocks.WHITE_TULIP.asItem(), Blocks.PINK_TULIP.asItem(), Blocks.OXEYE_DAISY.asItem(), Blocks.CORNFLOWER.asItem(), Blocks.LILY_OF_THE_VALLEY.asItem(), Blocks.WITHER_ROSE.asItem(), Blocks.RED_MUSHROOM.asItem(), Blocks.BROWN_MUSHROOM.asItem(), Blocks.DEAD_BUSH.asItem(), Blocks.CACTUS.asItem(), Blocks.BAMBOO.asItem(), Blocks.CRIMSON_FUNGUS.asItem(), Blocks.WARPED_FUNGUS.asItem(), Blocks.CRIMSON_ROOTS.asItem(), Blocks.WARPED_ROOTS.asItem(), Blocks.AZALEA.asItem(), Blocks.FLOWERING_AZALEA.asItem());
+            tag(ModTags.Item.MAY_APPLY_ON_FLOWER_POT).add(Blocks.OAK_SAPLING.asItem().asItem(), Blocks.SPRUCE_SAPLING.asItem(), Blocks.BIRCH_SAPLING.asItem(), Blocks.JUNGLE_SAPLING.asItem(), Blocks.ACACIA_SAPLING.asItem(), Blocks.DARK_OAK_SAPLING.asItem(), Blocks.MANGROVE_PROPAGULE.asItem(), Blocks.FERN.asItem(), Blocks.DANDELION.asItem(), Blocks.POPPY.asItem(), Blocks.BLUE_ORCHID.asItem(), Blocks.ALLIUM.asItem(), Blocks.AZURE_BLUET.asItem(), Blocks.RED_TULIP.asItem(), Blocks.ORANGE_TULIP.asItem(), Blocks.WHITE_TULIP.asItem(), Blocks.PINK_TULIP.asItem(), Blocks.OXEYE_DAISY.asItem(), Blocks.CORNFLOWER.asItem(), Blocks.LILY_OF_THE_VALLEY.asItem(), Blocks.WITHER_ROSE.asItem(), Blocks.RED_MUSHROOM.asItem(), Blocks.BROWN_MUSHROOM.asItem(), Blocks.DEAD_BUSH.asItem(), Blocks.CACTUS.asItem(), Blocks.BAMBOO.asItem(), Blocks.CRIMSON_FUNGUS.asItem(), Blocks.WARPED_FUNGUS.asItem(), Blocks.CRIMSON_ROOTS.asItem(), Blocks.WARPED_ROOTS.asItem(), Blocks.AZALEA.asItem(), Blocks.FLOWERING_AZALEA.asItem(), Blocks.BIG_DRIPLEAF.asItem());
         }
 
         @NotNull

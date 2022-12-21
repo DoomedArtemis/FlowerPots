@@ -207,6 +207,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.SMALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
             success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.SMALL_FLOWER_POT.get())) {
+            level.setBlock(blockPos, ModBlocks.SMALL_FLOWER_POT_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
+            success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.SMALL_TALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_TALL_FLOWER_POT_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
             success = true;
@@ -302,6 +305,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
             success = true;
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.SMALL_TALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
+            success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.SMALL_TALL_FLOWER_POT.get())) {
+            level.setBlock(blockPos, ModBlocks.SMALL_TALL_FLOWER_POT_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
             success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.LARGE_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.LARGE_FLOWER_POT_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
@@ -399,6 +405,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.LARGE_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.LARGE_FLOWER_POT_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
             success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.LARGE_FLOWER_POT.get())) {
+            level.setBlock(blockPos, ModBlocks.LARGE_FLOWER_POT_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
+            success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.LARGE_TALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.LARGE_TALL_FLOWER_POT_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
             success = true;
@@ -494,6 +503,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
             success = true;
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.LARGE_TALL_FLOWER_POT.get())) {
             level.setBlock(blockPos, ModBlocks.LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
+            success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.LARGE_TALL_FLOWER_POT.get())) {
+            level.setBlock(blockPos, ModBlocks.LARGE_TALL_FLOWER_POT_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
             success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
@@ -591,6 +603,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
             success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get())) {
+            level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
+            success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
             success = true;
@@ -686,6 +701,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
             success = true;
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
+            success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get())) {
+            level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
             success = true;
         } else if (itemInHand.equals(Blocks.OAK_SAPLING.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_OAK_SAPLING.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.OAK_SAPLING), 3);
@@ -783,6 +801,9 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         } else if (itemInHand.equals(Blocks.FLOWERING_AZALEA.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get())) {
             level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.FLOWRING_AZALEA).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.MOSS), 3);
             success = true;
+        } else if (itemInHand.equals(Blocks.BIG_DRIPLEAF.asItem()) && block.equals(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get())) {
+            level.setBlock(blockPos, ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIG_DRIPLEAF.get().defaultBlockState().setValue(FLOWER_POT_PLANT, FlowerPotPlantTypeEnum.BIG_DRIPLEAF).setValue(FLOWER_POT_DIRT, FlowerPotDirtTypeEnum.CLAY), 3);
+            success = true;
         }
 
         if (itemStackInHand.is(ModItems.GARDENING_SHOVEL.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT) && !blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
@@ -792,7 +813,12 @@ public class FlowerPotBlock extends net.minecraft.world.level.block.FlowerPotBlo
         }
 
         if (itemStackInHand.is(ModItems.GARDENING_SHEARS.get()) && !blockState.is(ModTags.Block.EMPTY_FLOWER_POT) && !blockState.is(ModTags.Block.UNFIRED_FLOWER_POT)) {
-            blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, blockState.getValue(FLOWER_POT_PLANT_VARIANT).getNext());
+            if (FlowerPotUtil.getBlocks("dripleaf").contains(block) && blockState.getValue(FLOWER_POT_PLANT_VARIANT).equals(FlowerPotPlantTypeVariantEnum.VARIANT_1)) {
+                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, FlowerPotPlantTypeVariantEnum.DEFAULT);
+            } else {
+                blockState = blockState.setValue(FLOWER_POT_PLANT_VARIANT, blockState.getValue(FLOWER_POT_PLANT_VARIANT).getNext());
+            }
+
             level.setBlockAndUpdate(blockPos, blockState);
             success = true;
         }

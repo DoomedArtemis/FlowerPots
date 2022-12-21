@@ -1,0 +1,13 @@
+{
+  "parent": "flowerpots:generation/large_tall_flower_pot_big_dripleaf_partial_tilt",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/crimson_nylium",
+    "flower_pot": "flowerpots:block/large_tall_flower_pot",
+    "particle": "flowerpots:block/large_tall_flower_pot",
+    "side": "minecraft:block/big_dripleaf_side",
+    "stem": "minecraft:block/big_dripleaf_stem",
+    "tip": "minecraft:block/big_dripleaf_tip",
+    "top": "minecraft:block/big_dripleaf_top"
+  }
+}

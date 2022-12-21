@@ -72,6 +72,18 @@
     "flower_pot_dirt=clay,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_clay"
     },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_clay"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_clay"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_clay"
+    },
+    "flower_pot_dirt=clay,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_clay"
+    },
     "flower_pot_dirt=clay,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_clay"
     },
@@ -466,6 +478,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_coarse_dirt"
     },
     "flower_pot_dirt=coarse_dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_coarse_dirt"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_coarse_dirt"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_coarse_dirt"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_coarse_dirt"
+    },
+    "flower_pot_dirt=coarse_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_coarse_dirt"
     },
     "flower_pot_dirt=coarse_dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -864,6 +888,18 @@
     "flower_pot_dirt=crimson_nylium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_crimson_nylium"
     },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_crimson_nylium"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_crimson_nylium"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_crimson_nylium"
+    },
+    "flower_pot_dirt=crimson_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_crimson_nylium"
+    },
     "flower_pot_dirt=crimson_nylium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_crimson_nylium"
     },
@@ -1258,6 +1294,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_dirt"
     },
     "flower_pot_dirt=dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_dirt"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_dirt"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_dirt"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_dirt"
+    },
+    "flower_pot_dirt=dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_dirt"
     },
     "flower_pot_dirt=dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -1656,6 +1704,18 @@
     "flower_pot_dirt=grass_block,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_grass_block"
     },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_grass_block"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_grass_block"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_grass_block"
+    },
+    "flower_pot_dirt=grass_block,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_grass_block"
+    },
     "flower_pot_dirt=grass_block,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_grass_block"
     },
@@ -2050,6 +2110,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_moss"
     },
     "flower_pot_dirt=moss,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_moss"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_moss"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_moss"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_moss"
+    },
+    "flower_pot_dirt=moss,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_moss"
     },
     "flower_pot_dirt=moss,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -2448,6 +2520,18 @@
     "flower_pot_dirt=mud,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_mud"
     },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_mud"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_mud"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_mud"
+    },
+    "flower_pot_dirt=mud,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_mud"
+    },
     "flower_pot_dirt=mud,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_mud"
     },
@@ -2842,6 +2926,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_mycelium"
     },
     "flower_pot_dirt=mycelium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_mycelium"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_mycelium"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_mycelium"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_mycelium"
+    },
+    "flower_pot_dirt=mycelium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_mycelium"
     },
     "flower_pot_dirt=mycelium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -3240,6 +3336,18 @@
     "flower_pot_dirt=podzol,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_podzol"
     },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_podzol"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_podzol"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_podzol"
+    },
+    "flower_pot_dirt=podzol,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_podzol"
+    },
     "flower_pot_dirt=podzol,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_podzol"
     },
@@ -3634,6 +3742,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_red_sand"
     },
     "flower_pot_dirt=red_sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_red_sand"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_red_sand"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_red_sand"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_red_sand"
+    },
+    "flower_pot_dirt=red_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_red_sand"
     },
     "flower_pot_dirt=red_sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -4032,6 +4152,18 @@
     "flower_pot_dirt=rooted_dirt,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_rooted_dirt"
     },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_rooted_dirt"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_rooted_dirt"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_rooted_dirt"
+    },
+    "flower_pot_dirt=rooted_dirt,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_rooted_dirt"
+    },
     "flower_pot_dirt=rooted_dirt,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_rooted_dirt"
     },
@@ -4426,6 +4558,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_sand"
     },
     "flower_pot_dirt=sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_sand"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_sand"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_sand"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_sand"
+    },
+    "flower_pot_dirt=sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_sand"
     },
     "flower_pot_dirt=sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
@@ -4824,6 +4968,18 @@
     "flower_pot_dirt=soul_sand,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_soul_sand"
     },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_soul_sand"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_soul_sand"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_soul_sand"
+    },
+    "flower_pot_dirt=soul_sand,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_soul_sand"
+    },
     "flower_pot_dirt=soul_sand,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_soul_sand"
     },
@@ -5218,6 +5374,18 @@
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_warped_nylium"
     },
     "flower_pot_dirt=warped_nylium,flower_pot_plant=bamboo,flower_pot_plant_variant=variant_2": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_warped_nylium"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=default": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_default_warped_nylium"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_0": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_0_warped_nylium"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_1": {
+      "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_1_warped_nylium"
+    },
+    "flower_pot_dirt=warped_nylium,flower_pot_plant=big_dripleaf,flower_pot_plant_variant=variant_2": {
       "model": "flowerpots:block/small_hanging_flower_pot_gold_chain_dark_oak_sapling_variant_2_warped_nylium"
     },
     "flower_pot_dirt=warped_nylium,flower_pot_plant=birch_sapling,flower_pot_plant_variant=default": {

@@ -50,6 +50,7 @@ public class BlockLootTables extends BlockLoot {
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get());
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -84,6 +85,7 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get());
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -118,6 +120,7 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get());
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -152,6 +155,7 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.SMALL_TALL_FLOWER_POT.get());
         dropSelf(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get());
@@ -187,6 +191,7 @@ public class BlockLootTables extends BlockLoot {
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.LARGE_FLOWER_POT.get());
         dropSelf(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get());
@@ -222,6 +227,7 @@ public class BlockLootTables extends BlockLoot {
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
         dropSelf(ModBlocks.LARGE_TALL_FLOWER_POT.get());
         dropSelf(ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get());
@@ -257,6 +263,7 @@ public class BlockLootTables extends BlockLoot {
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_WARPED_ROOTS.get(), Blocks.WARPED_ROOTS);
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
 
     }
 

@@ -53,6 +53,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.SMALL_FLOWER_POT_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_cross"), new ResourceLocation("block/flower_pot"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_FLOWER_POT_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_2"), new ResourceLocation("block/flower_pot"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_azalea_variant_2"), new ResourceLocation("block/flower_pot"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.SMALL_FLOWER_POT_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/small_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("block/flower_pot"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.SMALL_TALL_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_empty"), new ResourceLocation("flowerpots:block/small_tall_flower_pot"));
         flowerPotEmpty(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_empty"), new ResourceLocation("block/clay"));
@@ -88,6 +89,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_tall_flower_pot"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_TALL_FLOWER_POT_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_tall_flower_pot"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_tall_flower_pot"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.SMALL_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/small_tall_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/small_tall_flower_pot"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.LARGE_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_empty"), new ResourceLocation("flowerpots:block/large_flower_pot"));
         flowerPotEmpty(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_unfired"), new ResourceLocation("block/clay"));
@@ -123,6 +125,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.LARGE_FLOWER_POT_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_cross"), new ResourceLocation("flowerpots:block/large_flower_pot"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.LARGE_FLOWER_POT_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/large_flower_pot"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.LARGE_FLOWER_POT_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/large_flower_pot"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.LARGE_FLOWER_POT_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/large_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/large_flower_pot"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.LARGE_TALL_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_empty"), new ResourceLocation("flowerpots:block/large_tall_flower_pot"));
         flowerPotEmpty(ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_unfired"), new ResourceLocation("block/clay"));
@@ -158,6 +161,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_cross"), new ResourceLocation("flowerpots:block/large_tall_flower_pot"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.LARGE_TALL_FLOWER_POT_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/large_tall_flower_pot"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/large_tall_flower_pot"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.LARGE_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/large_tall_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/large_tall_flower_pot"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_empty"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"));
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_ALLIUM.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"), new ResourceLocation("block/allium"), new ResourceLocation("flowerpots:block/allium_variant_0"), new ResourceLocation("flowerpots:block/allium_variant_1"), new ResourceLocation("flowerpots:block/allium_variant_2"));
@@ -192,6 +196,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_iron_chain"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_empty"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"));
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_ALLIUM.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"), new ResourceLocation("block/allium"), new ResourceLocation("flowerpots:block/allium_variant_0"), new ResourceLocation("flowerpots:block/allium_variant_1"), new ResourceLocation("flowerpots:block/allium_variant_2"));
@@ -226,6 +231,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_gold_chain"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
         flowerPotEmpty(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_empty"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"));
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_ALLIUM.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"), new ResourceLocation("block/allium"), new ResourceLocation("flowerpots:block/allium_variant_0"), new ResourceLocation("flowerpots:block/allium_variant_1"), new ResourceLocation("flowerpots:block/allium_variant_2"));
@@ -260,6 +266,7 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         flowerPot(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_WARPED_ROOTS.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_cross"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"), new ResourceLocation("block/warped_roots_pot"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_0"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_1"), new ResourceLocation("flowerpots:block/warped_roots_pot_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"), new ResourceLocation("block/potted_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_azalea_bush_top_variant_2"));
         flowerPotConfigurableTexture(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_default"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_0"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_1"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_azalea_variant_2"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"), new ResourceLocation("block/potted_flowering_azalea_bush_plant"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_plant_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_side"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_side_variant_2"), new ResourceLocation("block/potted_flowering_azalea_bush_top"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_0"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_1"), new ResourceLocation("flowerpots:block/potted_flowering_azalea_bush_top_variant_2"));
+        flowerPotDripLeaf(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIG_DRIPLEAF.get(), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_partial_tilt"), new ResourceLocation(FlowerPots.MODID, "generation/small_hanging_flower_pot_big_dripleaf_full_tilt"), new ResourceLocation("flowerpots:block/small_hanging_flower_pot_copper_chain"), new ResourceLocation("block/big_dripleaf_stem"), new ResourceLocation("block/big_dripleaf_top"), new ResourceLocation("block/big_dripleaf_tip"), new ResourceLocation("block/big_dripleaf_side"));
 
     }
 
@@ -1328,5 +1335,285 @@ public class ModelAndBlockStateProvider extends BlockStateProvider {
         });
     }
 
+    public void flowerPotDripLeaf(Block block, ResourceLocation block_model_default, ResourceLocation block_model_partial_tilt, ResourceLocation block_model_full_tilt, ResourceLocation texture_pot, ResourceLocation texture_stem, ResourceLocation texture_top, ResourceLocation texture_tip, ResourceLocation texture_side) {
+
+        ModelFile flower_pot_default_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_dirt",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_dirt",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_dirt",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_coarse_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_coarse_dirt",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/coarse_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_coarse_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_coarse_dirt",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/coarse_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_coarse_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_coarse_dirt",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/coarse_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_grass_block = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_grass_block",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("flowerpots:block/grass_block_top_colored")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_grass_block = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_grass_block",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("flowerpots:block/grass_block_top_colored")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_grass_block = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_grass_block",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("flowerpots:block/grass_block_top_colored")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_podzol = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_podzol",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/podzol_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_podzol = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_podzol",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/podzol_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_podzol = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_podzol",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/podzol_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_rooted_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_rooted_dirt",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/rooted_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_rooted_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_rooted_dirt",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/rooted_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_rooted_dirt = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_rooted_dirt",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/rooted_dirt")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_mud = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_mud",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mud")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_mud = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_mud",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mud")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_mud = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_mud",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mud")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_crimson_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_crimson_nylium",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/crimson_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_crimson_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_crimson_nylium",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/crimson_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_crimson_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_crimson_nylium",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/crimson_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_warped_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_warped_nylium",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/warped_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_warped_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_warped_nylium",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/warped_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_warped_nylium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_warped_nylium",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/warped_nylium")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_sand",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_sand",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_sand",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_red_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_red_sand",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/red_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_red_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_red_sand",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/red_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_red_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_red_sand",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/red_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_mycelium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_mycelium",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mycelium_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_mycelium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_mycelium",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mycelium_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_mycelium = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_mycelium",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/mycelium_top")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_moss = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_moss",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/moss_block")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_moss = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_moss",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/moss_block")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_moss = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_moss",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/moss_block")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_clay = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_clay",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_clay = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_clay",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_clay = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_clay",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/clay")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_default_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_default_soul_sand",
+                        block_model_default).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_partial_tilt_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_partial_tilt_soul_sand",
+                        block_model_partial_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        ModelFile flower_pot_full_tilt_soul_sand = models().withExistingParent(DataProvider.getRegistryName(block.asItem()) + "_full_tilt_soul_sand",
+                        block_model_full_tilt).renderType("cutout")
+                .texture("flower_pot", texture_pot).texture("dirt", new ResourceLocation("block/soul_sand")).texture("stem", texture_stem).texture("top", texture_top).texture("tip", texture_tip).texture("side", texture_side).texture("particle", texture_pot);
+
+        flowerPotDripLeaf(block, flower_pot_default_dirt, flower_pot_partial_tilt_dirt, flower_pot_full_tilt_dirt,
+                flower_pot_default_coarse_dirt, flower_pot_partial_tilt_coarse_dirt, flower_pot_full_tilt_coarse_dirt,
+                flower_pot_default_grass_block, flower_pot_partial_tilt_grass_block, flower_pot_full_tilt_grass_block,
+                flower_pot_default_podzol, flower_pot_partial_tilt_podzol, flower_pot_full_tilt_podzol,
+                flower_pot_default_rooted_dirt, flower_pot_partial_tilt_rooted_dirt, flower_pot_full_tilt_rooted_dirt,
+                flower_pot_default_mud, flower_pot_partial_tilt_mud, flower_pot_full_tilt_mud,
+                flower_pot_default_crimson_nylium, flower_pot_partial_tilt_crimson_nylium, flower_pot_full_tilt_crimson_nylium,
+                flower_pot_default_warped_nylium, flower_pot_partial_tilt_warped_nylium, flower_pot_full_tilt_warped_nylium,
+                flower_pot_default_sand, flower_pot_partial_tilt_sand, flower_pot_full_tilt_sand,
+                flower_pot_default_red_sand, flower_pot_partial_tilt_red_sand, flower_pot_full_tilt_red_sand,
+                flower_pot_default_mycelium, flower_pot_partial_tilt_mycelium, flower_pot_full_tilt_mycelium,
+                flower_pot_default_moss, flower_pot_partial_tilt_moss, flower_pot_full_tilt_moss,
+                flower_pot_default_clay, flower_pot_partial_tilt_clay, flower_pot_full_tilt_clay,
+                flower_pot_default_soul_sand, flower_pot_partial_tilt_soul_sand, flower_pot_full_tilt_soul_sand);
+    }
+
+    public void flowerPotDripLeaf(Block block, ModelFile flower_pot_default_dirt, ModelFile flower_pot_partial_tilt_dirt, ModelFile flower_pot_full_tilt_dirt,
+                                             ModelFile flower_pot_default_coarse_dirt, ModelFile flower_pot_partial_tilt_coarse_dirt, ModelFile flower_pot_full_tilt_coarse_dirt,
+                                             ModelFile flower_pot_default_grass_block, ModelFile flower_pot_partial_tilt_grass_block, ModelFile flower_pot_full_tilt_grass_block,
+                                             ModelFile flower_pot_default_podzol, ModelFile flower_pot_partial_tilt_podzol, ModelFile flower_pot_full_tilt_podzol,
+                                             ModelFile flower_pot_default_rooted_dirt, ModelFile flower_pot_partial_tilt_rooted_dirt, ModelFile flower_pot_full_tilt_rooted_dirt,
+                                             ModelFile flower_pot_default_mud, ModelFile flower_pot_partial_tilt_mud, ModelFile flower_pot_full_tilt_mud,
+                                             ModelFile flower_pot_default_crimson_nylium, ModelFile flower_pot_partial_tilt_crimson_nylium, ModelFile flower_pot_full_tilt_crimson_nylium,
+                                             ModelFile flower_pot_default_warped_nylium, ModelFile flower_pot_partial_tilt_warped_nylium, ModelFile flower_pot_full_tilt_warped_nylium,
+                                             ModelFile flower_pot_default_sand, ModelFile flower_pot_partial_tilt_sand, ModelFile flower_pot_full_tilt_sand,
+                                             ModelFile flower_pot_default_red_sand, ModelFile flower_pot_partial_tilt_red_sand, ModelFile flower_pot_full_tilt_red_sand,
+                                             ModelFile flower_pot_default_mycelium, ModelFile flower_pot_partial_tilt_mycelium, ModelFile flower_pot_full_tilt_mycelium,
+                                             ModelFile flower_pot_default_moss, ModelFile flower_pot_partial_tilt_moss, ModelFile flower_pot_full_tilt_moss,
+                                             ModelFile flower_pot_default_clay, ModelFile flower_pot_partial_tilt_clay, ModelFile flower_pot_full_tilt_clay,
+                                             ModelFile flower_pot_default_soul_sand, ModelFile flower_pot_partial_tilt_soul_sand, ModelFile flower_pot_full_tilt_soul_sand) {
+
+        getVariantBuilder(block).forAllStates(state -> {
+            ModelFile finalModel = switch (state.getValue(ModEnums.FLOWER_POT_DIRT)) {
+                case GRASS_BLOCK -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_grass_block;
+                    case VARIANT_1 -> flower_pot_full_tilt_grass_block;
+                    default -> flower_pot_default_grass_block;
+                };
+                case DIRT -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_dirt;
+                    case VARIANT_1 -> flower_pot_full_tilt_dirt;
+                    default -> flower_pot_default_dirt;
+                };
+                case COARSE_DIRT -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_coarse_dirt;
+                    case VARIANT_1 -> flower_pot_full_tilt_coarse_dirt;
+                    default -> flower_pot_default_coarse_dirt;
+                };
+                case PODZOL -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_podzol;
+                    case VARIANT_1 -> flower_pot_full_tilt_podzol;
+                    default -> flower_pot_default_podzol;
+                };
+                case ROOTED_DIRT -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_rooted_dirt;
+                    case VARIANT_1 -> flower_pot_full_tilt_rooted_dirt;
+                    default -> flower_pot_default_rooted_dirt;
+                };
+                case MUD -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_mud;
+                    case VARIANT_1 -> flower_pot_full_tilt_mud;
+                    default -> flower_pot_default_mud;
+                };
+                case CRIMSON_NYLIUM -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_crimson_nylium;
+                    case VARIANT_1 -> flower_pot_full_tilt_crimson_nylium;
+                    default -> flower_pot_default_crimson_nylium;
+                };
+                case WARPED_NYLIUM -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_warped_nylium;
+                    case VARIANT_1 -> flower_pot_full_tilt_warped_nylium;
+                    default -> flower_pot_default_warped_nylium;
+                };
+                case SAND -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_sand;
+                    case VARIANT_1 -> flower_pot_full_tilt_sand;
+                    default -> flower_pot_default_sand;
+                };
+                case RED_SAND -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_red_sand;
+                    case VARIANT_1 -> flower_pot_full_tilt_red_sand;
+                    default -> flower_pot_default_red_sand;
+                };
+                case MYCELIUM -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_mycelium;
+                    case VARIANT_1 -> flower_pot_full_tilt_mycelium;
+                    default -> flower_pot_default_mycelium;
+                };
+                case MOSS -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_moss;
+                    case VARIANT_1 -> flower_pot_full_tilt_moss;
+                    default -> flower_pot_default_moss;
+                };
+                case CLAY -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_clay;
+                    case VARIANT_1 -> flower_pot_full_tilt_clay;
+                    default -> flower_pot_default_clay;
+                };
+                case SOUL_SAND -> switch (state.getValue(ModEnums.FLOWER_POT_PLANT_VARIANT)) {
+                    case VARIANT_0 -> flower_pot_partial_tilt_soul_sand;
+                    case VARIANT_1 -> flower_pot_full_tilt_soul_sand;
+                    default -> flower_pot_default_soul_sand;
+                };
+
+            };
+            return ConfiguredModel.builder()
+                    .modelFile(finalModel)
+                    .build();
+        });
+    }
 
 }
