@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_leaves_default",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/rooted_dirt",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "plant": "minecraft:block/azalea_leaves"
+  }
+}

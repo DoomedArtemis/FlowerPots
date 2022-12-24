@@ -23,6 +23,7 @@ public class ModTags {
     public static class Block {
         public static final TagKey<net.minecraft.world.level.block.Block> EMPTY_FLOWER_POT = tag("empty_flower_pot");
         public static final TagKey<net.minecraft.world.level.block.Block> UNFIRED_FLOWER_POT = tag("unfired_flower_pot");
+        public static final TagKey<net.minecraft.world.level.block.Block> FLOWER_POT_NO_VARIANTS = tag("flower_pot_no_variants");
 
         private static TagKey<net.minecraft.world.level.block.Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(FlowerPots.MODID, name));

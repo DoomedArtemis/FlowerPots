@@ -51,6 +51,21 @@ public class BlockLootTables extends BlockLoot {
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_GRASS.get(), Blocks.GRASS);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_LILAC.get(), Blocks.LILAC);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_PEONY.get(), Blocks.PEONY);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get());
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -86,6 +101,21 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_GRASS.get(), Blocks.GRASS);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_LILAC.get(), Blocks.LILAC);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_PEONY.get(), Blocks.PEONY);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropSmallHangingFlowerPotIronChain(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get());
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -121,6 +151,21 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_GRASS.get(), Blocks.GRASS);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_LILAC.get(), Blocks.LILAC);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_PEONY.get(), Blocks.PEONY);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropSmallHangingFlowerPotGoldChain(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get());
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -156,6 +201,21 @@ public class BlockLootTables extends BlockLoot {
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_AZALEA.get(), Blocks.AZALEA);
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_GRASS.get(), Blocks.GRASS);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_LILAC.get(), Blocks.LILAC);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_PEONY.get(), Blocks.PEONY);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropSmallHangingFlowerPotCopperChain(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.SMALL_TALL_FLOWER_POT.get());
         dropSelf(ModBlocks.SMALL_TALL_UNFIRED_FLOWER_POT.get());
@@ -192,6 +252,21 @@ public class BlockLootTables extends BlockLoot {
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_GRASS.get(), Blocks.GRASS);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_LILAC.get(), Blocks.LILAC);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_PEONY.get(), Blocks.PEONY);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropSmallTallFlowerPot(ModBlocks.SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.LARGE_FLOWER_POT.get());
         dropSelf(ModBlocks.LARGE_UNFIRED_FLOWER_POT.get());
@@ -228,6 +303,21 @@ public class BlockLootTables extends BlockLoot {
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_GRASS.get(), Blocks.GRASS);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_LILAC.get(), Blocks.LILAC);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_PEONY.get(), Blocks.PEONY);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropLargeFlowerPot(ModBlocks.LARGE_FLOWER_POT_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
         dropSelf(ModBlocks.LARGE_TALL_FLOWER_POT.get());
         dropSelf(ModBlocks.LARGE_TALL_UNFIRED_FLOWER_POT.get());
@@ -264,6 +354,21 @@ public class BlockLootTables extends BlockLoot {
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_AZALEA.get(), Blocks.AZALEA);
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA.get(), Blocks.FLOWERING_AZALEA);
         dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_BIG_DRIPLEAF.get(), Blocks.BIG_DRIPLEAF);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_GRASS.get(), Blocks.GRASS);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_LILAC.get(), Blocks.LILAC);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_ROSE_BUSH.get(), Blocks.ROSE_BUSH);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_PEONY.get(), Blocks.PEONY);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_TALL_GRASS.get(), Blocks.TALL_GRASS);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_LARGE_FERN.get(), Blocks.LARGE_FERN);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_OAK_LEAVES.get(), Blocks.OAK_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_SPRUCE_LEAVES.get(), Blocks.SPRUCE_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_BIRCH_LEAVES.get(), Blocks.BIRCH_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_DARK_OAK_LEAVES.get(), Blocks.DARK_OAK_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_ACACIA_LEAVES.get(), Blocks.ACACIA_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_JUNGLE_LEAVES.get(), Blocks.JUNGLE_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_MANGROVE_LEAVES.get(), Blocks.MANGROVE_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_AZALEA_LEAVES.get(), Blocks.AZALEA_LEAVES);
+        dropLargeTallFlowerPot(ModBlocks.LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES.get(), Blocks.FLOWERING_AZALEA_LEAVES);
 
     }
 

@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/large_tall_flower_pot_leaves_tint_variant_1",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/warped_nylium",
+    "flower_pot": "flowerpots:block/large_tall_flower_pot",
+    "particle": "flowerpots:block/large_tall_flower_pot",
+    "plant": "minecraft:block/oak_leaves"
+  }
+}

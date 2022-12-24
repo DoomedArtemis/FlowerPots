@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/large_flower_pot_cross_tint_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/crimson_nylium",
+    "flower_pot": "flowerpots:block/large_flower_pot",
+    "particle": "flowerpots:block/large_flower_pot",
+    "plant_bottom": "minecraft:block/large_fern_bottom",
+    "plant_top": "minecraft:block/large_fern_top"
+  }
+}
