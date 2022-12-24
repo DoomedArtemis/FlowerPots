@@ -40,8 +40,23 @@ public enum FlowerPotPlantTypeEnum implements StringRepresentable {
     CRIMSON_ROOTS(Blocks.CRIMSON_ROOTS::asItem),
     WARPED_ROOTS(Blocks.WARPED_ROOTS::asItem),
     AZALEA(Blocks.AZALEA::asItem),
-    FLOWRING_AZALEA(Blocks.FLOWERING_AZALEA::asItem),
-    BIG_DRIPLEAF(Blocks.BIG_DRIPLEAF::asItem);
+    FLOWERING_AZALEA(Blocks.FLOWERING_AZALEA::asItem),
+    BIG_DRIPLEAF(Blocks.BIG_DRIPLEAF::asItem),
+    GRASS(Blocks.GRASS::asItem),
+    LILAC(Blocks.LILAC::asItem),
+    ROSE_BUSH(Blocks.ROSE_BUSH::asItem),
+    PEONY(Blocks.PEONY::asItem),
+    TALL_GRASS(Blocks.TALL_GRASS::asItem),
+    LARGE_FERN(Blocks.LARGE_FERN::asItem),
+    OAK_LEAVES(Blocks.OAK_LEAVES::asItem),
+    SPRUCE_LEAVES(Blocks.SPRUCE_LEAVES::asItem),
+    BIRCH_LEAVES(Blocks.BIRCH_LEAVES::asItem),
+    DARK_OAK_LEAVES(Blocks.DARK_OAK_LEAVES::asItem),
+    ACACIA_LEAVES(Blocks.ACACIA_LEAVES::asItem),
+    JUNGLE_LEAVES(Blocks.JUNGLE_LEAVES::asItem),
+    MANGROVE_LEAVES(Blocks.MANGROVE_LEAVES::asItem),
+    AZALEA_LEAVES(Blocks.AZALEA_LEAVES::asItem),
+    FLOWERING_AZALEA_LEAVES(Blocks.FLOWERING_AZALEA_LEAVES::asItem);
 
     private final Supplier<Item> item;
 

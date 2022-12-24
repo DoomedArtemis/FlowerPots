@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/large_flower_pot_cross_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/rooted_dirt",
+    "flower_pot": "flowerpots:block/large_flower_pot",
+    "particle": "flowerpots:block/large_flower_pot",
+    "plant_bottom": "flowerpots:block/peony_bottom_variant_2",
+    "plant_top": "flowerpots:block/peony_top_variant_2"
+  }
+}

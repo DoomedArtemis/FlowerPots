@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_leaves_tint_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/red_sand",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_iron_chain",
+    "plant": "minecraft:block/spruce_leaves"
+  }
+}

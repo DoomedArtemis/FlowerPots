@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_leaves_variant_1",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/warped_nylium",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "minecraft:block/flower_pot",
+    "plant": "minecraft:block/azalea_leaves"
+  }
+}

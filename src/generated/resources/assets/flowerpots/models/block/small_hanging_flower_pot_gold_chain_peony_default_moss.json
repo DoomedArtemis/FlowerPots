@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/small_hanging_flower_pot_cross_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/moss_block",
+    "flower_pot": "flowerpots:block/small_hanging_flower_pot_gold_chain",
+    "particle": "flowerpots:block/small_hanging_flower_pot_gold_chain",
+    "plant_bottom": "minecraft:block/peony_bottom",
+    "plant_top": "minecraft:block/peony_top"
+  }
+}

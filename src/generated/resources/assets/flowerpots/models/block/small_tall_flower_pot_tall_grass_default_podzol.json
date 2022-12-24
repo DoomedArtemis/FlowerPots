@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/small_tall_flower_pot_cross_tint_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/podzol_top",
+    "flower_pot": "flowerpots:block/small_tall_flower_pot",
+    "particle": "flowerpots:block/small_tall_flower_pot",
+    "plant_bottom": "minecraft:block/tall_grass_bottom",
+    "plant_top": "minecraft:block/tall_grass_top"
+  }
+}
