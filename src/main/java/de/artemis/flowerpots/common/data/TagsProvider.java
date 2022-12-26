@@ -20,7 +20,7 @@ public class TagsProvider {
 
         @SuppressWarnings("deprecation")
         protected ItemTagsProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-            super(generator, Registry.ITEM, FlowerPots.MODID, existingFileHelper);
+            super(generator, Registry.ITEM, FlowerPots.MOD_ID, existingFileHelper);
             this.generator = generator;
         }
 
@@ -47,7 +47,7 @@ public class TagsProvider {
 
         @SuppressWarnings("deprecation")
         protected BlockTagsProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-            super(generator, Registry.BLOCK, FlowerPots.MODID, existingFileHelper);
+            super(generator, Registry.BLOCK, FlowerPots.MOD_ID, existingFileHelper);
             this.generator = generator;
         }
 

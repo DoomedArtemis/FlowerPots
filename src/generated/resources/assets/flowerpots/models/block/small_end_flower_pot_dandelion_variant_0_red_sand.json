@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/red_sand",
+    "flower_pot": "flowerpots:block/small_end_flower_pot",
+    "particle": "flowerpots:block/small_end_flower_pot",
+    "plant": "flowerpots:block/dandelion_variant_0"
+  }
+}

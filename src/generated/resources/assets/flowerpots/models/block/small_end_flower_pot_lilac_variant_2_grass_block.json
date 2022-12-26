@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cross_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "flowerpots:block/grass_block_top_colored",
+    "flower_pot": "flowerpots:block/small_end_flower_pot",
+    "particle": "flowerpots:block/small_end_flower_pot",
+    "plant_bottom": "flowerpots:block/lilac_bottom_variant_2",
+    "plant_top": "flowerpots:block/lilac_top_variant_2"
+  }
+}

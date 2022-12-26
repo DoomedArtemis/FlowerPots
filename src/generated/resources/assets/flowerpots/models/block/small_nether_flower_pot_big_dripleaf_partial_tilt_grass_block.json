@@ -1,0 +1,13 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_big_dripleaf_partial_tilt",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "flowerpots:block/grass_block_top_colored",
+    "flower_pot": "flowerpots:block/small_nether_flower_pot",
+    "particle": "flowerpots:block/small_nether_flower_pot",
+    "side": "minecraft:block/big_dripleaf_side",
+    "stem": "minecraft:block/big_dripleaf_stem",
+    "tip": "minecraft:block/big_dripleaf_tip",
+    "top": "minecraft:block/big_dripleaf_top"
+  }
+}

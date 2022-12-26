@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_mangrove_propagule_variant_0",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/podzol_top",
+    "flower_pot": "flowerpots:block/small_jungle_flower_pot",
+    "particle": "flowerpots:block/small_jungle_flower_pot",
+    "plant": "flowerpots:block/mangrove_propagule_variant_0"
+  }
+}

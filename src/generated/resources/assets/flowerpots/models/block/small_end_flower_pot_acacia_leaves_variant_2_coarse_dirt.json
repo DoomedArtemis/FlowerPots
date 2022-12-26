@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_leaves_tint_variant_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/coarse_dirt",
+    "flower_pot": "flowerpots:block/small_end_flower_pot",
+    "particle": "flowerpots:block/small_end_flower_pot",
+    "plant": "minecraft:block/acacia_leaves"
+  }
+}

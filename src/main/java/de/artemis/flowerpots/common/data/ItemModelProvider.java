@@ -10,7 +10,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ItemModelProvider extends net.minecraftforge.client.model.generators.ItemModelProvider {
     public ItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, FlowerPots.MODID, existingFileHelper);
+        super(generator, FlowerPots.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -18,6 +18,16 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
 
         simpleItem(ModItems.GARDENING_SHOVEL.get());
         simpleItem(ModItems.GARDENING_SHEARS.get());
+
+        simpleItem(ModItems.DESERT_POTTERY_FRAGMENT.get());
+        simpleItem(ModItems.JUNGLE_POTTERY_FRAGMENT.get());
+        simpleItem(ModItems.NETHER_POTTERY_FRAGMENT.get());
+        simpleItem(ModItems.END_POTTERY_FRAGMENT.get());
+
+        simpleItem(ModBlocks.SMALL_DESERT_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.SMALL_JUNGLE_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.SMALL_NETHER_FLOWER_POT.get().asItem());
+        simpleItem(ModBlocks.SMALL_END_FLOWER_POT.get().asItem());
 
         simpleItem(ModBlocks.SMALL_FLOWER_POT.get().asItem());
         simpleItem(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get().asItem());

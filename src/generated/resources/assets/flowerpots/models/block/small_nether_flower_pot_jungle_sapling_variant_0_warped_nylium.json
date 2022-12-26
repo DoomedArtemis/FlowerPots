@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/warped_nylium",
+    "flower_pot": "flowerpots:block/small_nether_flower_pot",
+    "particle": "flowerpots:block/small_nether_flower_pot",
+    "plant": "flowerpots:block/jungle_sapling_variant_0"
+  }
+}

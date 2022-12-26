@@ -1,0 +1,11 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cross_tall",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/mud",
+    "flower_pot": "flowerpots:block/small_nether_flower_pot",
+    "particle": "flowerpots:block/small_nether_flower_pot",
+    "plant_bottom": "flowerpots:block/rose_bush_bottom_variant_2",
+    "plant_top": "flowerpots:block/rose_bush_top_variant_2"
+  }
+}

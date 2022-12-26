@@ -34,6 +34,7 @@ public class ModBlocks {
     public static void register() {
     }
 
+    //region Small Flower Pot
     public static final RegistryObject<FlowerPotBlock> SMALL_FLOWER_POT = registerWithTab("small_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -183,11 +184,605 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> SMALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_flower_pot_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
+    //region Small Desert Flower Pot
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT = Registration.BLOCKS.register("small_desert_flower_pot",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_OAK_SAPLING = register("small_desert_flower_pot_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_SPRUCE_SAPLING = register("small_desert_flower_pot_spruce_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BIRCH_SAPLING = register("small_desert_flower_pot_birch_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_JUNGLE_SAPLING = register("small_desert_flower_pot_jungle_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_ACACIA_SAPLING = register("small_desert_flower_pot_acacia_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_DARK_OAK_SAPLING = register("small_desert_flower_pot_dark_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_MANGROVE_SAPLING = register("small_desert_flower_pot_mangrove_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_FERN = register("small_desert_flower_pot_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_DANDELION = register("small_desert_flower_pot_dandelion",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_POPPY = register("small_desert_flower_pot_poppy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BLUE_ORCHID = register("small_desert_flower_pot_blue_orchid",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_ALLIUM = register("small_desert_flower_pot_allium",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_AZURE_BLUET = register("small_desert_flower_pot_azure_bluet",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_RED_TULIP = register("small_desert_flower_pot_red_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_ORANGE_TULIP = register("small_desert_flower_pot_orange_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_WHITE_TULIP = register("small_desert_flower_pot_white_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_PINK_TULIP = register("small_desert_flower_pot_pink_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_OXEYE_DAISY = register("small_desert_flower_pot_oxeye_daisy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_CORNFLOWER = register("small_desert_flower_pot_cornflower",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_LILY_OF_THE_VALLEY = register("small_desert_flower_pot_lily_of_the_valley",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_WITHER_ROSE = register("small_desert_flower_pot_wither_rose",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_RED_MUSHROOM = register("small_desert_flower_pot_red_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BROWN_MUSHROOM = register("small_desert_flower_pot_brown_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_DEAD_BUSH = register("small_desert_flower_pot_dead_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_CACTUS = register("small_desert_flower_pot_cactus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BAMBOO = register("small_desert_flower_pot_bamboo",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_CRIMSON_FUNGUS = register("small_desert_flower_pot_crimson_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_WARPED_FUNGUS = register("small_desert_flower_pot_warped_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_CRIMSON_ROOTS = register("small_desert_flower_pot_crimson_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_WARPED_ROOTS = register("small_desert_flower_pot_warped_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_AZALEA = register("small_desert_flower_pot_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_FLOWERING_AZALEA = register("small_desert_flower_pot_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BIG_DRIPLEAF = register("small_desert_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_GRASS = register("small_desert_flower_pot_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_LILAC = register("small_desert_flower_pot_lilac",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_ROSE_BUSH = register("small_desert_flower_pot_rose_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_PEONY = register("small_desert_flower_pot_peony",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_TALL_GRASS = register("small_desert_flower_pot_tall_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_LARGE_FERN = register("small_desert_flower_pot_large_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_OAK_LEAVES = register("small_desert_flower_pot_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_SPRUCE_LEAVES = register("small_desert_flower_pot_spruce_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_BIRCH_LEAVES = register("small_desert_flower_pot_birch_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_DARK_OAK_LEAVES = register("small_desert_flower_pot_dark_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_ACACIA_LEAVES = register("small_desert_flower_pot_acacia_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_JUNGLE_LEAVES = register("small_desert_flower_pot_jungle_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_MANGROVE_LEAVES = register("small_desert_flower_pot_mangrove_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_AZALEA_LEAVES = register("small_desert_flower_pot_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_DESERT_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_desert_flower_pot_flowering_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
+
+    //region Small Jungle Flower Pot
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT = Registration.BLOCKS.register("small_jungle_flower_pot",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_OAK_SAPLING = register("small_jungle_flower_pot_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_SPRUCE_SAPLING = register("small_jungle_flower_pot_spruce_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BIRCH_SAPLING = register("small_jungle_flower_pot_birch_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_JUNGLE_SAPLING = register("small_jungle_flower_pot_jungle_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_ACACIA_SAPLING = register("small_jungle_flower_pot_acacia_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_DARK_OAK_SAPLING = register("small_jungle_flower_pot_dark_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_MANGROVE_SAPLING = register("small_jungle_flower_pot_mangrove_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_FERN = register("small_jungle_flower_pot_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_DANDELION = register("small_jungle_flower_pot_dandelion",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_POPPY = register("small_jungle_flower_pot_poppy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BLUE_ORCHID = register("small_jungle_flower_pot_blue_orchid",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_ALLIUM = register("small_jungle_flower_pot_allium",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_AZURE_BLUET = register("small_jungle_flower_pot_azure_bluet",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_RED_TULIP = register("small_jungle_flower_pot_red_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_ORANGE_TULIP = register("small_jungle_flower_pot_orange_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_WHITE_TULIP = register("small_jungle_flower_pot_white_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_PINK_TULIP = register("small_jungle_flower_pot_pink_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_OXEYE_DAISY = register("small_jungle_flower_pot_oxeye_daisy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_CORNFLOWER = register("small_jungle_flower_pot_cornflower",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_LILY_OF_THE_VALLEY = register("small_jungle_flower_pot_lily_of_the_valley",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_WITHER_ROSE = register("small_jungle_flower_pot_wither_rose",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_RED_MUSHROOM = register("small_jungle_flower_pot_red_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BROWN_MUSHROOM = register("small_jungle_flower_pot_brown_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_DEAD_BUSH = register("small_jungle_flower_pot_dead_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_CACTUS = register("small_jungle_flower_pot_cactus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BAMBOO = register("small_jungle_flower_pot_bamboo",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_CRIMSON_FUNGUS = register("small_jungle_flower_pot_crimson_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_WARPED_FUNGUS = register("small_jungle_flower_pot_warped_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_CRIMSON_ROOTS = register("small_jungle_flower_pot_crimson_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_WARPED_ROOTS = register("small_jungle_flower_pot_warped_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_AZALEA = register("small_jungle_flower_pot_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_FLOWERING_AZALEA = register("small_jungle_flower_pot_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BIG_DRIPLEAF = register("small_jungle_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_GRASS = register("small_jungle_flower_pot_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_LILAC = register("small_jungle_flower_pot_lilac",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_ROSE_BUSH = register("small_jungle_flower_pot_rose_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_PEONY = register("small_jungle_flower_pot_peony",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_TALL_GRASS = register("small_jungle_flower_pot_tall_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_LARGE_FERN = register("small_jungle_flower_pot_large_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_OAK_LEAVES = register("small_jungle_flower_pot_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_SPRUCE_LEAVES = register("small_jungle_flower_pot_spruce_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_BIRCH_LEAVES = register("small_jungle_flower_pot_birch_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_DARK_OAK_LEAVES = register("small_jungle_flower_pot_dark_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_ACACIA_LEAVES = register("small_jungle_flower_pot_acacia_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_JUNGLE_LEAVES = register("small_jungle_flower_pot_jungle_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_MANGROVE_LEAVES = register("small_jungle_flower_pot_mangrove_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_AZALEA_LEAVES = register("small_jungle_flower_pot_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_JUNGLE_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_jungle_flower_pot_flowering_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
+
+    //region Small Nether Flower Pot
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT = Registration.BLOCKS.register("small_nether_flower_pot",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_OAK_SAPLING = register("small_nether_flower_pot_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_SPRUCE_SAPLING = register("small_nether_flower_pot_spruce_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BIRCH_SAPLING = register("small_nether_flower_pot_birch_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_JUNGLE_SAPLING = register("small_nether_flower_pot_jungle_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_ACACIA_SAPLING = register("small_nether_flower_pot_acacia_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_DARK_OAK_SAPLING = register("small_nether_flower_pot_dark_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_MANGROVE_SAPLING = register("small_nether_flower_pot_mangrove_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_FERN = register("small_nether_flower_pot_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_DANDELION = register("small_nether_flower_pot_dandelion",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_POPPY = register("small_nether_flower_pot_poppy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BLUE_ORCHID = register("small_nether_flower_pot_blue_orchid",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_ALLIUM = register("small_nether_flower_pot_allium",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_AZURE_BLUET = register("small_nether_flower_pot_azure_bluet",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_RED_TULIP = register("small_nether_flower_pot_red_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_ORANGE_TULIP = register("small_nether_flower_pot_orange_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_WHITE_TULIP = register("small_nether_flower_pot_white_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_PINK_TULIP = register("small_nether_flower_pot_pink_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_OXEYE_DAISY = register("small_nether_flower_pot_oxeye_daisy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_CORNFLOWER = register("small_nether_flower_pot_cornflower",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_LILY_OF_THE_VALLEY = register("small_nether_flower_pot_lily_of_the_valley",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_WITHER_ROSE = register("small_nether_flower_pot_wither_rose",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_RED_MUSHROOM = register("small_nether_flower_pot_red_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BROWN_MUSHROOM = register("small_nether_flower_pot_brown_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_DEAD_BUSH = register("small_nether_flower_pot_dead_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_CACTUS = register("small_nether_flower_pot_cactus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BAMBOO = register("small_nether_flower_pot_bamboo",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_CRIMSON_FUNGUS = register("small_nether_flower_pot_crimson_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_WARPED_FUNGUS = register("small_nether_flower_pot_warped_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_CRIMSON_ROOTS = register("small_nether_flower_pot_crimson_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_WARPED_ROOTS = register("small_nether_flower_pot_warped_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_AZALEA = register("small_nether_flower_pot_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_FLOWERING_AZALEA = register("small_nether_flower_pot_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BIG_DRIPLEAF = register("small_nether_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_GRASS = register("small_nether_flower_pot_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_LILAC = register("small_nether_flower_pot_lilac",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_ROSE_BUSH = register("small_nether_flower_pot_rose_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_PEONY = register("small_nether_flower_pot_peony",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_TALL_GRASS = register("small_nether_flower_pot_tall_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_LARGE_FERN = register("small_nether_flower_pot_large_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_OAK_LEAVES = register("small_nether_flower_pot_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_SPRUCE_LEAVES = register("small_nether_flower_pot_spruce_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_BIRCH_LEAVES = register("small_nether_flower_pot_birch_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_DARK_OAK_LEAVES = register("small_nether_flower_pot_dark_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_ACACIA_LEAVES = register("small_nether_flower_pot_acacia_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_JUNGLE_LEAVES = register("small_nether_flower_pot_jungle_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_MANGROVE_LEAVES = register("small_nether_flower_pot_mangrove_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_AZALEA_LEAVES = register("small_nether_flower_pot_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_NETHER_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_nether_flower_pot_flowering_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
+
+    //region Small End Flower Pot
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT = Registration.BLOCKS.register("small_end_flower_pot",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_OAK_SAPLING = register("small_end_flower_pot_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_SPRUCE_SAPLING = register("small_end_flower_pot_spruce_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BIRCH_SAPLING = register("small_end_flower_pot_birch_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_JUNGLE_SAPLING = register("small_end_flower_pot_jungle_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_ACACIA_SAPLING = register("small_end_flower_pot_acacia_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_DARK_OAK_SAPLING = register("small_end_flower_pot_dark_oak_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_MANGROVE_SAPLING = register("small_end_flower_pot_mangrove_sapling",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_FERN = register("small_end_flower_pot_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_DANDELION = register("small_end_flower_pot_dandelion",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_POPPY = register("small_end_flower_pot_poppy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BLUE_ORCHID = register("small_end_flower_pot_blue_orchid",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_ALLIUM = register("small_end_flower_pot_allium",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_AZURE_BLUET = register("small_end_flower_pot_azure_bluet",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_RED_TULIP = register("small_end_flower_pot_red_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_ORANGE_TULIP = register("small_end_flower_pot_orange_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_WHITE_TULIP = register("small_end_flower_pot_white_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_PINK_TULIP = register("small_end_flower_pot_pink_tulip",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_OXEYE_DAISY = register("small_end_flower_pot_oxeye_daisy",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_CORNFLOWER = register("small_end_flower_pot_cornflower",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_LILY_OF_THE_VALLEY = register("small_end_flower_pot_lily_of_the_valley",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_WITHER_ROSE = register("small_end_flower_pot_wither_rose",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_RED_MUSHROOM = register("small_end_flower_pot_red_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BROWN_MUSHROOM = register("small_end_flower_pot_brown_mushroom",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_DEAD_BUSH = register("small_end_flower_pot_dead_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_CACTUS = register("small_end_flower_pot_cactus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BAMBOO = register("small_end_flower_pot_bamboo",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_CRIMSON_FUNGUS = register("small_end_flower_pot_crimson_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_WARPED_FUNGUS = register("small_end_flower_pot_warped_fungus",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_CRIMSON_ROOTS = register("small_end_flower_pot_crimson_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_WARPED_ROOTS = register("small_end_flower_pot_warped_roots",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_AZALEA = register("small_end_flower_pot_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_FLOWERING_AZALEA = register("small_end_flower_pot_flowering_azalea",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BIG_DRIPLEAF = register("small_end_flower_pot_big_dripleaf",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_GRASS = register("small_end_flower_pot_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_LILAC = register("small_end_flower_pot_lilac",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_ROSE_BUSH = register("small_end_flower_pot_rose_bush",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_PEONY = register("small_end_flower_pot_peony",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_TALL_GRASS = register("small_end_flower_pot_tall_grass",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_LARGE_FERN = register("small_end_flower_pot_large_fern",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_OAK_LEAVES = register("small_end_flower_pot_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_SPRUCE_LEAVES = register("small_end_flower_pot_spruce_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_BIRCH_LEAVES = register("small_end_flower_pot_birch_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_DARK_OAK_LEAVES = register("small_end_flower_pot_dark_oak_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_ACACIA_LEAVES = register("small_end_flower_pot_acacia_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_JUNGLE_LEAVES = register("small_end_flower_pot_jungle_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_MANGROVE_LEAVES = register("small_end_flower_pot_mangrove_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_AZALEA_LEAVES = register("small_end_flower_pot_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+
+    public static final RegistryObject<FlowerPotBlock> SMALL_END_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_end_flower_pot_flowering_azalea_leaves",
+            () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
+
+    //region Small Tall Flower Pot
     public static final RegistryObject<FlowerPotBlock> SMALL_TALL_FLOWER_POT = registerWithTab("small_tall_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -337,11 +932,9 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> SMALL_TALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("small_tall_flower_pot_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
-
-
-
-
+    //region Large Flower Pot
     public static final RegistryObject<FlowerPotBlock> LARGE_FLOWER_POT = registerWithTab("large_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -491,11 +1084,9 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> LARGE_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("large_flower_pot_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
-
-
-
-
+    //region Large Tall Flower Pot
     public static final RegistryObject<FlowerPotBlock> LARGE_TALL_FLOWER_POT = registerWithTab("large_tall_flower_pot",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -645,11 +1236,9 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> LARGE_TALL_FLOWER_POT_FLOWERING_AZALEA_LEAVES = register("large_tall_flower_pot_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
-
-
-
-
+    //region Small Hanging Flower Pot (Iron Chain)
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_IRON_CHAIN = registerWithTab("small_hanging_flower_pot_iron_chain",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -796,11 +1385,9 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_IRON_CHAIN_FLOWERING_AZALEA_LEAVES = register("small_hanging_flower_pot_iron_chain_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
-
-
-
-
+    //region Small Hanging Flower Pot (Gold Chain)
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_GOLD_CHAIN = registerWithTab("small_hanging_flower_pot_gold_chain",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -947,11 +1534,9 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_GOLD_CHAIN_FLOWERING_AZALEA_LEAVES = register("small_hanging_flower_pot_gold_chain_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    //endregion
 
-
-
-
-
+    //region Small Hanging Flower Pot (Copper Chain)
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_COPPER_CHAIN = registerWithTab("small_hanging_flower_pot_copper_chain",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
@@ -1098,5 +1683,5 @@ public class ModBlocks {
 
     public static final RegistryObject<FlowerPotBlock> SMALL_HANGING_FLOWER_POT_COPPER_CHAIN_FLOWERING_AZALEA_LEAVES = register("small_hanging_flower_pot_copper_chain_flowering_azalea_leaves",
             () -> new FlowerPotBlock(AIR, BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
-
+    //endregion
 }

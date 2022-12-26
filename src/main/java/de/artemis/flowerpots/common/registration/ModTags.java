@@ -12,7 +12,7 @@ public class ModTags {
         public static final TagKey<net.minecraft.world.item.Item> MAY_APPLY_ON_FLOWER_POT = tag("may_apply_on_flower_pot");
 
         private static TagKey<net.minecraft.world.item.Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation(FlowerPots.MODID, name));
+            return ItemTags.create(new ResourceLocation(FlowerPots.MOD_ID, name));
         }
 
         private static TagKey<net.minecraft.world.item.Item> forgeTag(String name) {
@@ -26,7 +26,7 @@ public class ModTags {
         public static final TagKey<net.minecraft.world.level.block.Block> FLOWER_POT_NO_VARIANTS = tag("flower_pot_no_variants");
 
         private static TagKey<net.minecraft.world.level.block.Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(FlowerPots.MODID, name));
+            return BlockTags.create(new ResourceLocation(FlowerPots.MOD_ID, name));
         }
 
         private static TagKey<net.minecraft.world.level.block.Block> forgeTag(String name) {

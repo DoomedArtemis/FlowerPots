@@ -8,7 +8,7 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = FlowerPots.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = FlowerPots.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataProvider {
 
     @SubscribeEvent
@@ -23,6 +23,7 @@ public class DataProvider {
         generator.addProvider(true, new RecipesProvider(generator));
         generator.addProvider(true, new TagsProvider.ItemTagsProvider(generator, existingFileHelper));
         generator.addProvider(true, new TagsProvider.BlockTagsProvider(generator, existingFileHelper));
+        generator.addProvider(true, new PoiTypeTagsProvider(generator, existingFileHelper));
     }
 
     public static String getRegistryName(Item item) {

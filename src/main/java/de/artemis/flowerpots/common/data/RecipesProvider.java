@@ -38,5 +38,10 @@ public class RecipesProvider extends RecipeProvider implements IConditionBuilder
 
         ShapedRecipeBuilder.shaped(ModItems.GARDENING_SHOVEL.get()).define('A', Items.STICK).define('B', Items.IRON_INGOT).pattern("B").pattern("A").unlockedBy("has_iron_ingot", has(Items.IRON_INGOT)).save(consumer);
         ShapedRecipeBuilder.shaped(ModItems.GARDENING_SHEARS.get()).define('A', Items.IRON_INGOT).define('B', Items.STICK).pattern("  A").pattern(" A ").pattern("B  ").unlockedBy("has_iron_ingot", has(Items.IRON_INGOT)).save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_DESERT_FLOWER_POT.get()).define('A', ModItems.DESERT_POTTERY_FRAGMENT.get()).pattern("A A").pattern(" A ").unlockedBy("has_desert_pottery_fragment", has(ModItems.DESERT_POTTERY_FRAGMENT.get())).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_JUNGLE_FLOWER_POT.get()).define('A', ModItems.JUNGLE_POTTERY_FRAGMENT.get()).pattern("A A").pattern(" A ").unlockedBy("has_jungle_pottery_fragment", has(ModItems.JUNGLE_POTTERY_FRAGMENT.get())).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_NETHER_FLOWER_POT.get()).define('A', ModItems.NETHER_POTTERY_FRAGMENT.get()).pattern("A A").pattern(" A ").unlockedBy("has_nether_pottery_fragment", has(ModItems.NETHER_POTTERY_FRAGMENT.get())).save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.SMALL_END_FLOWER_POT.get()).define('A', ModItems.END_POTTERY_FRAGMENT.get()).pattern("A A").pattern(" A ").unlockedBy("has_end_pottery_fragment", has(ModItems.END_POTTERY_FRAGMENT.get())).save(consumer);
     }
 }

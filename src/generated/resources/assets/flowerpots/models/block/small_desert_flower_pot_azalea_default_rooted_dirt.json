@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_azalea_default",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/rooted_dirt",
+    "flower_pot": "flowerpots:block/small_desert_flower_pot",
+    "particle": "flowerpots:block/small_desert_flower_pot",
+    "plant": "minecraft:block/potted_azalea_bush_plant",
+    "plant_side": "minecraft:block/potted_azalea_bush_side",
+    "plant_top": "minecraft:block/potted_azalea_bush_top"
+  }
+}

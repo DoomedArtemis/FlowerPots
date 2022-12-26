@@ -1,0 +1,10 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_leaves_tint_default",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/clay",
+    "flower_pot": "flowerpots:block/small_desert_flower_pot",
+    "particle": "flowerpots:block/small_desert_flower_pot",
+    "plant": "minecraft:block/mangrove_leaves"
+  }
+}

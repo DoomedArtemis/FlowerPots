@@ -1,0 +1,13 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_big_dripleaf",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/sand",
+    "flower_pot": "flowerpots:block/small_jungle_flower_pot",
+    "particle": "flowerpots:block/small_jungle_flower_pot",
+    "side": "minecraft:block/big_dripleaf_side",
+    "stem": "minecraft:block/big_dripleaf_stem",
+    "tip": "minecraft:block/big_dripleaf_tip",
+    "top": "minecraft:block/big_dripleaf_top"
+  }
+}

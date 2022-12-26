@@ -1,0 +1,12 @@
+{
+  "parent": "flowerpots:generation/small_flower_pot_cactus_default",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dirt": "minecraft:block/clay",
+    "flower_pot": "flowerpots:block/small_desert_flower_pot",
+    "particle": "flowerpots:block/small_desert_flower_pot",
+    "plant": "minecraft:block/cactus_side",
+    "plant_side": "minecraft:block/cactus_side",
+    "plant_top": "minecraft:block/cactus_top"
+  }
+}

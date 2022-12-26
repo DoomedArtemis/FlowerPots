@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flowerpots:item/nether_pottery_fragment"
+  }
+}
