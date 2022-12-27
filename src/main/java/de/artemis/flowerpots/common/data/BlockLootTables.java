@@ -2,7 +2,8 @@ package de.artemis.flowerpots.common.data;
 
 import de.artemis.flowerpots.common.registration.ModBlocks;
 import de.artemis.flowerpots.common.registration.Registration;
-import net.minecraft.data.loot.BlockLoot;
+import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -12,10 +13,16 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraftforge.registries.RegistryObject;
 
-public class BlockLootTables extends BlockLoot {
+import java.util.Set;
+
+public class BlockLootTables extends BlockLootSubProvider {
+
+    protected BlockLootTables() {
+        super(Set.of(), FeatureFlags.REGISTRY.allFlags());
+    }
 
     @Override
-    protected void addTables() {
+    protected void generate() {
         dropSelf(ModBlocks.SMALL_FLOWER_POT.get());
         dropSelf(ModBlocks.SMALL_UNFIRED_FLOWER_POT.get());
         dropSmallFlowerPot(ModBlocks.SMALL_FLOWER_POT_OAK_SAPLING.get(), Blocks.OAK_SAPLING.asItem());
@@ -621,47 +628,47 @@ public class BlockLootTables extends BlockLoot {
         this.add(block, createSmallEndFlowerPotItemTable(itemLike));
     }
 
-    protected static LootTable.Builder createSmallFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallHangingFlowerPotIronChainItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallHangingFlowerPotIronChainItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallHangingFlowerPotGoldChainItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallHangingFlowerPotGoldChainItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_HANGING_FLOWER_POT_GOLD_CHAIN.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallHangingFlowerPotCopperChainItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallHangingFlowerPotCopperChainItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_HANGING_FLOWER_POT_COPPER_CHAIN.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallTallFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallTallFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_TALL_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_TALL_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createLargeFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createLargeFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.LARGE_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.LARGE_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createLargeTallFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createLargeTallFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.LARGE_TALL_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.LARGE_TALL_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallDesertFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallDesertFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_DESERT_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_DESERT_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallJungleFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallJungleFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_JUNGLE_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_JUNGLE_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallNetherFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallNetherFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_NETHER_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_NETHER_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 
-    protected static LootTable.Builder createSmallEndFlowerPotItemTable(ItemLike itemLike) {
+    protected LootTable.Builder createSmallEndFlowerPotItemTable(ItemLike itemLike) {
         return LootTable.lootTable().withPool(applyExplosionCondition(ModBlocks.SMALL_END_FLOWER_POT.get(), LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(ModBlocks.SMALL_END_FLOWER_POT.get())))).withPool(applyExplosionCondition(itemLike, LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F)).add(LootItem.lootTableItem(itemLike))));
     }
 

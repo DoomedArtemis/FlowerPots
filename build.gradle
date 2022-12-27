@@ -22,6 +22,11 @@ java {
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 
+wrapper {
+    gradleVersion = '7.5'
+    distributionType = Wrapper.DistributionType.ALL
+}
+
 minecraft {
     mappings channel: 'official', version: "${mc_version}"
 
@@ -89,17 +94,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    mavenCentral()
     maven {
-        url "https://cursemaven.com"
-        content {
-            includeGroup "curse.maven"
-        }
+        name = "Modmaven"
+        url = 'https://modmaven.dev/'
     }
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${mc_version}-43.1.25"
-    implementation fg.deobf("curse.maven:jei-${jei_version}")
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+    compileOnly fg.deobf("mezz.jei:jei-${jei_version}")
 }
 
 jar {

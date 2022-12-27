@@ -3,7 +3,6 @@ package de.artemis.flowerpots.common.villagers;
 import com.mojang.datafixers.util.Pair;
 import de.artemis.flowerpots.FlowerPots;
 import net.minecraft.core.Registry;
-import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.data.worldgen.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
@@ -14,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class VillageStructures {
-    public static void init() {
+    /*public static void init() {
         PlainVillagePools.bootstrap();
         SavannaVillagePools.bootstrap();
         TaigaVillagePools.bootstrap();
@@ -36,5 +35,5 @@ public class VillageStructures {
         StructurePoolElement newPiece = StructurePoolElement.legacy(toAdd).apply(StructureTemplatePool.Projection.RIGID);
         newPieces.add(Pair.of(newPiece, weight));
         Registry.register(BuiltinRegistries.TEMPLATE_POOL, pool, new StructureTemplatePool(pool, old.getName(), newPieces));
-    }
+    }*/
 }

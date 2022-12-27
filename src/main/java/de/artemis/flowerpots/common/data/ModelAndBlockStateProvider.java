@@ -4,6 +4,7 @@ import de.artemis.flowerpots.FlowerPots;
 import de.artemis.flowerpots.common.registration.ModBlocks;
 import de.artemis.flowerpots.common.registration.ModEnums;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -12,8 +13,8 @@ import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ModelAndBlockStateProvider extends BlockStateProvider {
-    public ModelAndBlockStateProvider(DataGenerator gen, ExistingFileHelper exFileHelper) {
-        super(gen, FlowerPots.MOD_ID, exFileHelper);
+    public ModelAndBlockStateProvider(PackOutput packOutput, ExistingFileHelper exFileHelper) {
+        super(packOutput, FlowerPots.MOD_ID, exFileHelper);
     }
 
     @Override

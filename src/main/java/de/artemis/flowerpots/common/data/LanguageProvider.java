@@ -5,20 +5,22 @@ import de.artemis.flowerpots.common.registration.ModBlocks;
 import de.artemis.flowerpots.common.registration.ModItems;
 import de.artemis.flowerpots.common.registration.ModVillagers;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
 public class LanguageProvider extends net.minecraftforge.common.data.LanguageProvider {
-    public LanguageProvider(DataGenerator gen, String locale) {
-        super(gen, FlowerPots.MOD_ID, locale);
+    public LanguageProvider(PackOutput packOutput, String locale) {
+        super(packOutput, FlowerPots.MOD_ID, locale);
     }
 
     @Override
     protected void addTranslations() {
 
         add("itemGroup.flowerpots", "Artemis' Flower Pots");
+        add("flowerpots.name", FlowerPots.NAME);
 
         add("keybind.flowerpots.category", "Artemis' Flower Pots");
         add("keybind.flowerpots.toggle_description_keybind", "Show Description");

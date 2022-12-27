@@ -6,6 +6,7 @@ import de.artemis.flowerpots.common.registration.ModItems;
 import de.artemis.flowerpots.common.registration.Registration;
 import de.artemis.flowerpots.common.villagers.VillageStructures;
 import net.minecraft.core.NonNullList;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -27,15 +28,10 @@ import java.util.Collections;
 public class FlowerPots {
 
     public static final String MOD_ID = "flowerpots";
+    public static final String NAME = "Artemis' Flower Pots";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final CreativeModeTab INVENTORY_TAB = new CreativeModeTab(MOD_ID) {
-        @Override
-        public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.SMALL_HANGING_FLOWER_POT_IRON_CHAIN.get());
-        }
-
-        @Override
+        /*@Override
         public void fillItemList(@NotNull NonNullList<ItemStack> items) {
             ArrayList<Item> blockList = new ArrayList<>();
 
@@ -48,7 +44,7 @@ public class FlowerPots {
                 run++;
             }
         }
-    };
+    };*/
 
     public FlowerPots() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -57,8 +53,12 @@ public class FlowerPots {
         Registration.register();
     }
 
+    public static ResourceLocation getRL(String resource) {
+        return new ResourceLocation(MOD_ID, resource);
+    }
+
     private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(VillageStructures::init);
+        //event.enqueueWork(VillageStructures::init);
     }
 
     @SubscribeEvent

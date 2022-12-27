@@ -3,6 +3,7 @@ package de.artemis.flowerpots.common.data;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.storage.loot.LootTable;
@@ -14,19 +15,19 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class BlockLootTablesProvider extends LootTableProvider {
-    public BlockLootTablesProvider(DataGenerator generator) {
-        super(generator);
+    public BlockLootTablesProvider(PackOutput output) {
+        super(output, Set.of(), ImmutableList.of(new SubProviderEntry(BlockLootTables::new, LootContextParamSets.BLOCK)));
     }
 
-    @NotNull
     @Override
-    protected List<Pair<Supplier<Consumer<BiConsumer<ResourceLocation, LootTable.Builder>>>, LootContextParamSet>> getTables() {
-        return ImmutableList.of(Pair.of(BlockLootTables::new, LootContextParamSets.BLOCK));
+    public @NotNull List<SubProviderEntry> getTables() {
+        return ImmutableList.of(new SubProviderEntry(BlockLootTables::new, LootContextParamSets.BLOCK));
     }
 
     @Override

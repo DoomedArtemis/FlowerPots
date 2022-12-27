@@ -4,13 +4,14 @@ import de.artemis.flowerpots.FlowerPots;
 import de.artemis.flowerpots.common.registration.ModBlocks;
 import de.artemis.flowerpots.common.registration.ModItems;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ItemModelProvider extends net.minecraftforge.client.model.generators.ItemModelProvider {
-    public ItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, FlowerPots.MOD_ID, existingFileHelper);
+    public ItemModelProvider(PackOutput packOutput, ExistingFileHelper existingFileHelper) {
+        super(packOutput, FlowerPots.MOD_ID, existingFileHelper);
     }
 
     @Override
